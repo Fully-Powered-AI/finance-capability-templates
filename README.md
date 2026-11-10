@@ -2,10 +2,11 @@
 
 A finance team that knows where every dollar stands before anyone asks. These capability templates take the recurring work of finance and accounting, such as receivables, collections and reporting, and give an AI assistant a precise way to prepare it, so your people spend their time on the decisions.
 
-This repository holds 3 capability templates for finance and accounting teams. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
+This repository holds 4 capability templates for finance and accounting teams. Each one is a single piece of work with its own folder: what it is for and who starts it, the complete template an AI assistant follows, a worked example with invented data, what to change for your company, what has been checked, and its sources.
 
 ## The capabilities
 
+- **[Month-end close checklist](month-end-close-checklist/)**: Before the month ends, your controller holds the whole close on one page: every task with its owner, its date and what it waits on, the chain that sets the close date, and each gap already written as a question. Entries are prepared for approval, never posted.
 - **[Overdue-invoice follow-up preparation](overdue-invoice-follow-up-preparation/)**: Every overdue invoice gets a follow-up drafted in your firm’s tone for its age and addressed from the right person, and every invoice that should not be chased is held with the reason written down.
 - **[Receivables exception review](receivables-exception-review/)**: The controller gets every short payment, unmatched or ambiguous receipt, possible duplicate and disputed invoice on one list, each with its evidence and a proposed next step, before anything is applied on a guess.
 - **[Weekly receivables summary](weekly-receivables-summary/)**: The finance lead takes one page into each week’s management meeting: what came in, where every receivable stands, which exceptions are open and who owns them, and the decisions management must make. Every figure ties to the aging report.

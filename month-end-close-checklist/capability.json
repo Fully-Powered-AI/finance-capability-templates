@@ -1,0 +1,75 @@
+{
+  "id": "month-end-close-checklist",
+  "name": "Month-end close checklist",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before the month ends, your controller holds the whole close on one page: every task with its owner, its date and what it waits on, the chain that sets the close date, and each gap already written as a question. Entries are prepared for approval, never posted.",
+  "directory": "https://fullypowered.ai/capabilities/month-end-close-checklist/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/law-firms",
+    "industries/engineering-firms"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "weekly-receivables-summary",
+    "receivables-exception-review",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work: the organization's own list as the only authority, every gap written as a question for a named role, and a person who approves, posts and locks."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/finance/executing-month-end-close",
+      "licence": "Apache-2.0",
+      "contribution": "The stages of a close in order (cut-off, entries, reconciliations, comparison with the prior period, the pack, sign-off, lock) and the check, before the period is locked, of which tasks are not yet complete.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "finance/skills/close-management",
+      "licence": "Apache-2.0",
+      "contribution": "The day-by-day arrangement of close work counted from the period end, the idea that each task waits on named earlier tasks, and a status for each task with a note on what blocks it.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "GAJETOso/financeskills",
+      "commit": "b0c6239e339c1865c54bd2bb4cd4c1974120f1b8",
+      "path": "skills/close-management",
+      "licence": "MIT",
+      "contribution": "Counting the close in working days, finding the dependent chain that sets how long the close takes, and raising a late or blocked task on that chain the same day.",
+      "text_reused": false,
+      "notice": "notices/GAJETOso-financeskills-LICENSE.txt"
+    }
+  ]
+}

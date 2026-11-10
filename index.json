@@ -1,8 +1,16 @@
 {
-  "repository": "Fully-Powered-AI/finance-capabilities",
+  "repository": "Fully-Powered-AI/finance-capability-templates",
   "title": "Finance",
   "term": "functions/finance-and-accounting",
   "capabilities": [
+    {
+      "id": "month-end-close-checklist",
+      "name": "Month-end close checklist",
+      "version": "0.1.0",
+      "summary": "Before the month ends, your controller holds the whole close on one page: every task with its owner, its date and what it waits on, the chain that sets the close date, and each gap already written as a question. Entries are prepared for approval, never posted.",
+      "path": "month-end-close-checklist/",
+      "directory": "https://fullypowered.ai/capabilities/month-end-close-checklist/"
+    },
     {
       "id": "overdue-invoice-follow-up-preparation",
       "name": "Overdue-invoice follow-up preparation",
