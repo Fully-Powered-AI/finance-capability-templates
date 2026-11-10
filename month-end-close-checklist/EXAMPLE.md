@@ -84,18 +84,18 @@ T16,Lock October in the accounting system,Day 5,Controller,T15,-
 
 - **T06** Reconcile the operating and payroll bank accounts. Owner: Staff accountant. Waits on: nothing. Reviewer: Controller.
 - **T07** Prepare the depreciation, prepaid release and supplier accrual entries, for approval. Owner: Staff accountant. Waits on: T03. Reviewer: Controller.
-- **T11** Reconcile the receivables ledger to the general ledger. Owner: Staff accountant. Waits on: T04, T10. Reviewer: Controller. **FLAG, order:** listed for Day 2, but it waits on T10, which is due on Day 3 (Thursday 5 November). Left where the list puts it; see decision 1.
+- **T11** Reconcile the receivables ledger to the general ledger. Owner: Staff accountant. Waits on: T04; T10. Reviewer: Controller. **FLAG, order:** listed for Day 2, but it waits on T10, which is due on Day 3 (Thursday 5 November). Left where the list puts it; see decision 1.
 
 **Thursday 5 November (Day 3)**
 
 - **T08** Prepare the unbilled revenue entry, for approval. Owner: Billing coordinator. Waits on: T04. Reviewer: Controller.
-- **T09** Approve the prepared entries (T05, T07, T08). Owner: Controller. Waits on: T05, T07, T08. Reviewer: none.
+- **T09** Approve the prepared entries (T05, T07, T08). Owner: Controller. Waits on: T05; T07; T08. Reviewer: none.
 - **T10** Post the approved entries. Owner: Staff accountant. Waits on: T09. Reviewer: Controller. **FLAG, owner away:** the staff accountant is out on Thursday 5 November. See decision 2.
 
 **Friday 6 November (Day 4)**
 
 - **T12** Reconcile the payables ledger and the remaining balance sheet accounts. Owner: Staff accountant. Waits on: T10. Reviewer: Controller. Carried item: the \$640 credit card difference, controller to confirm.
-- **T13** Run the trial balance; compare with September and with budget; explain movements over the threshold. Owner: Controller. Waits on: T11, T12. Reviewer: Controller. **FLAG, reviews own work:** the owner and the reviewer are the same person. See decision 3.
+- **T13** Run the trial balance; compare with September and with budget; explain movements over the threshold. Owner: Controller. Waits on: T11; T12. Reviewer: Controller. **FLAG, reviews own work:** the owner and the reviewer are the same person. See decision 3.
 
 **Monday 9 November (Day 5)**
 
@@ -109,7 +109,7 @@ T16,Lock October in the accounting system,Day 5,Controller,T15,-
 
 **Decisions for the controller before the close starts: 4**
 
-1. **T11, order.** The receivables reconciliation is listed for Wednesday 4 November but waits on the entries posted in T10 on Thursday 5 November. The earliest day the order allows is Thursday 5 November, when the staff accountant is out, so the first workable day for this owner is Friday 6 November, the same day as T13, which waits on it. Does T11 move, or does someone else do it?
+1. **T11, order.** The receivables reconciliation is listed for Wednesday 4 November but waits on the entries posted in T10 on Thursday 5 November. The earliest day the order allows is Thursday 5 November, and the staff accountant is out that day. T13, due on Friday 6 November, waits on T11. Does T11 move, or does someone else do it?
 2. **T10, owner away.** The staff accountant posts the approved entries and is out on the day they are due. T10 is on the chain that sets the close date, and T11, T12 and T13 wait on it. Who posts on Thursday 5 November, or does posting move to Friday 6 November?
 3. **T13, reviews own work.** The controller both prepares and reviews the trial balance comparison, and the settings say nobody reviews their own work. Who reviews T13?
 4. **N01, no owner, no day, no approval step.** The fit-out accrual is new this month and nothing on the list waits on it. The note assigns nobody and gives no day. The approval task, T09, names T05, T07 and T08 only, so nobody is yet listed to approve this entry; the other entries are approved and posted on Thursday 5 November. Who prepares it, by which day, and who approves it: under T09 or in a separate step?

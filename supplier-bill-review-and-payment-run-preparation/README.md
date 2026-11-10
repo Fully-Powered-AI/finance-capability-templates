@@ -36,10 +36,11 @@ One payment-run sheet, in a fixed order:
 1.  **The picture.** How many bills, how much, how many are in the run, held, stopped or not yet due.
 2.  **Stopped.** Any bill whose bank details differ from the ones on file, with the phone check that clears it.
 3.  **Held.** Each bill that failed a check, with what was billed, what it was checked against, the gap in dollars and who answers.
-4.  **Credits.** Each supplier holding a credit: owed, credit and net.
-5.  **The proposed run.** Overdue bills first, then early-payment discounts that would lapse before the next run, then what falls due inside the window, with the total.
-6.  **The tie-out and the cash line.** In the run plus held plus stopped plus not yet due equals the open bills total, with credit notes counted apart.
-7.  **Decisions and questions.** What the approver must decide, and what to ask the buyer, the warehouse and each supplier.
+4.  **Passed with a note.** Bills that passed with a small price difference inside the tolerance, or a regular bill that moved from the last one.
+5.  **Credits.** Each supplier holding a credit: owed, credit and net.
+6.  **The proposed run.** Overdue bills first, then early-payment discounts that would lapse before the next run, then what falls due inside the window, with the total. The bills that passed and are not yet due are listed after it.
+7.  **The tie-out and the cash line.** In the run plus held plus stopped plus not yet due equals the open bills total, with credit notes counted apart.
+8.  **Decisions and questions.** What the approver must decide, and what to ask the buyer, the warehouse and each supplier, followed by the held and stopped bills that will be overdue before the next run if nobody clears them.
 
 Good looks like this: the approver can trace any figure to a row in an export, and every bill outside the run still appears on the sheet with its reason.
 
@@ -66,7 +67,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 9 November 2026. It has been tried once on its own invented example, in one AI product; that is a trial, not a test. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this capability template. It was editorially reviewed on 9 November 2026. It was tried on its own invented example in one AI product on 9 November 2026, revised and tried again the same day; the record of the second run is published with the template, and lists the edits made afterward that have not been run again. That is a trial, not a test. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
 Testing in your environment means running it on past payment runs your bookkeeper already knows, with hard cases written in advance: a bill entered twice, a short delivery, a price above the order, a changed bank account, a supplier with a credit. The approver checks every figure against the exports before anyone relies on the sheet. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 

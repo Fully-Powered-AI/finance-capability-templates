@@ -166,3 +166,12 @@ Changed after the run recorded above, and not run again:
 
 - The pasted instructions now name the flag "reviews own work", so the label matches the procedure and the example.
 - The note "one per flagged task" was taken out of the decisions heading in the output format, so it is no longer copied into a checklist.
+
+Changed on 9 November 2026 after an independent review of the published template, and not run again. The output and the observations above are as recorded and describe the template and the example as they stood at the run:
+
+- **The pasted instructions, step 5.** A broken line was rewrapped, and two flags that were described without their names now carry the procedure's labels, "unknown task" and "circle".
+- **The output format, during the close.** The single line for a run during the close ("Raise today", "Late", "Blocked", "Not reported done before the lock") was set out as one line for each, with the fields the procedure already asks for. This part of the template has still not been tried.
+- **The example's first decision.** It no longer names Friday 6 November as the first workable day for the owner. It now gives what the instructions ask for, the earliest day the order allows and that the owner is away that day, as the run did.
+- **The example's "Waits on" lists.** They now keep the semicolons of the task list, as the run did.
+
+The first two places where the instructions leave room to guess are unchanged. On the third, the example now follows the instructions as written.

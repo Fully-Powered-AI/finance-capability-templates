@@ -1,14 +1,16 @@
-# Supplier bill review and payment-run preparation: one trial run on the invented example
+# Supplier bill review and payment-run preparation: a trial run on the invented example
 
-- **Product:** Claude, run in Claude Code (version 2.1.322, run once without tools)
+- **Product:** Claude, run in Claude Code (version 2.1.322, the recorded run made without tools)
 - **Model:** Claude Fable 5.2
 - **Date:** 2026-11-09
 
-This is a record of one run of the capability template on its own invented example. The company, the suppliers, the bills and every figure are invented, and no client data was used. It shows what the template produced once, on one set of inputs. It is not a test in any company's environment.
+This is a record of one run, the second of two, of the capability template on its own invented example. The company, the suppliers, the bills and every figure are invented, and no client data was used. It shows what the template produced once, on one set of inputs. It is not a test in any company's environment.
 
 This record replaces an earlier one made the same day. That first run, on an earlier wording of the template, found a number of places where the instructions were unclear: whether the credit note sits inside the open bills total, the overlap between "ready" and "not yet due", which run figure the cash line uses, and several rules the procedure had and the instructions for the assistant lacked. The template and the example were revised to settle them, and the run was repeated from the start. What follows is the second run only.
 
 After this run a number of sentences in the template were reworded so that its wording is Fully Powered's own throughout. The checks, the defaults, the four groups and the headings of the output format were not changed, and the run was not repeated. Three of the rewordings concern paths this run did not reach: the outcome names "receipt pending" and "order not found" became "nothing received yet" and "order not in the export"; the sentence written when no cash position is supplied now ends "Whether the account can cover this run has not been checked."; and the template's exception for a supplier whose credits come to more than its open bills now says what the sheet shows and what the approver chooses. The output below is as returned by the wording used on the day.
+
+On 9 November 2026, after this run and after an independent review, the instructions for the AI assistant were edited again and the run was not repeated. Three rules the procedure already had were added to the instructions, none of them on a path this run reached: a bill with a purchase order whose lines were not supplied is held as "lines not supplied"; the bills of a supplier listed twice under near-identical names are held; and where a supplier's credits come to more than its open bills, those bills are counted with the held bills as "covered by credit". Step 7 of the procedure and item 3 of the reviewer checklist were reworded to agree with that last rule. The output format was not changed.
 
 ## The inputs used
 

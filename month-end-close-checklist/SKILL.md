@@ -60,14 +60,13 @@ and continue.
    "no posting step".
 5. Flag, on the task itself, without moving it: no owner; no day; owner
    away or reviewer away on the due date; order (due before a task it
-   waits on; the same day is allowed); waits on an unknown number; a
-   circle of tasks waiting on each other; reviews own work (owner and
-   reviewer the same person, unless the entry rule allows it); after
-   the target (due
-   later than the target date or than the date the statements are
-   needed). A task with several problems carries them in one flag,
-   kinds separated by commas, and counts once. The header counts
-   flagged tasks.
+   waits on; the same day is allowed); unknown task (it waits on a
+   number that is not on the list); circle (two or more tasks wait on
+   each other); reviews own work (owner and reviewer the same person,
+   unless the entry rule allows it); after the target (due later than
+   the target date or than the date the statements are needed). A task
+   with several problems carries them in one flag, kinds separated by
+   commas, and counts once. The header counts flagged tasks.
 6. Find the chain that sets the close date: start from the task due
    last that nothing waits on, and step back each time to the task it
    waits on with the latest due date. On a tie, name both branches.
@@ -150,7 +149,11 @@ Carried from last month
 Also noted
 [Anything in the notes that affects the dates and is not a flag.]
 
-[During the close only] Raise today: ... Late: ... Blocked: ... Not reported done before the lock: ...
+[During the close only]
+Raise today: [Number, late / blocked, on the chain]. Waiting on it: [numbers / nothing].
+Late: [Number], due [weekday date], [status as supplied]. Waiting on it: [numbers / nothing]. [On / Off] the chain.
+Blocked: [Number], blocked by [what blocks it, as supplied]. Waiting on it: [numbers / nothing]. [On / Off] the chain.
+Not reported done before the lock: [numbers / none].
 
 Draft for the [controller role]'s approval. Nothing has been assigned, posted, sent or locked.
 ```

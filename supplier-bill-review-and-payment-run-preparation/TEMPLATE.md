@@ -55,7 +55,7 @@ The work uses only the last four digits of a bank account. Where an export carri
    - **Charge not ordered.** A bill line with no order line, such as freight or a surcharge, above [your unordered-charge limit, default $40]. Hold.
    Every hold states what was billed, what the order or the log says, and the gap between them in dollars.
 6. **Check bills with no purchase order.** If the order rule says none is needed (for example utilities, rent, or bills under [your order threshold]), the bill passes on the supplier and duplicate checks. Compare it with the same supplier's last paid bill and note a change of more than [your movement note, default 10%]. That note does not hold the bill. If the order rule says one is needed, hold the bill as "no purchase order" and ask the buyer who ordered the work.
-7. **Show credits apart.** For any supplier with a credit note or a negative open row, set the bills owed beside the credit and show what would be left to pay if the credit were used. Put the bill in the run at its full amount and give the total both ways. A credit comes off a payment only when the approver has said so. Where the credits come to more than the bills, see the exceptions below.
+7. **Show credits apart.** For any supplier with a credit note or a negative open row, set the bills owed beside the credit and show what would be left to pay if the credit were used. A bill that passed its checks stays in the run at its full amount, and the total is given both ways. A credit comes off a payment only when the approver has said so. The one case that differs is a supplier whose credits come to more than its bills: those bills are counted with the held bills as "covered by credit", as the exceptions below set out.
 8. **Sort every bill.** A bill that passed every check is ready; held and stopped bills are set aside. A bill with one held line is held whole; show the amount not in question so the approver can choose to pay that part. The amount not in question is the bill total less the differences held: for a price hold, the bill at order prices; for a quantity hold, what was received at the billed price. Where the whole bill is held (a duplicate, no purchase order, an order not in the export, nothing received, lines that do not add up), the difference is the whole bill and nothing is not in question.
 9. **Propose the run** from the ready bills only, in this order: overdue on the run date, with days late; early-payment discounts that expire before the next run date, with the discount in dollars and the pay-by date (the discount period counts from the bill date unless the terms say otherwise); bills due on or before the window date. A ready bill outside all three is left out of the run as "not yet due". Every bill is now in exactly one of four groups: in the run, held, stopped, not yet due.
 10. **Tie out.** In the run at full bill value + held + stopped + not yet due must equal the open bills total, credit notes excluded. If it does not, stop and report the figures.
@@ -130,7 +130,7 @@ Status: prepared for approval. Nothing has been paid, sent or changed.
 
 1. The tie-out line is arithmetically correct and equals the total of the bills in the open bills export, credit notes excluded. (Approver)
 2. Every bill in the run passed every check: no hold, no stop, lines that add up. (Bookkeeper)
-3. Every held bill shows what was billed, what it was checked against, the difference and who answers. (Bookkeeper)
+3. Every held bill shows what was billed, what it was checked against, the difference and who answers. A bill held as "covered by credit" failed no check: it shows that reason, and Credits shows the bills, the credits and the credit left over. (Bookkeeper)
 4. No bill whose pay-to details differ from the file is in the run. (Approver)
 5. Every credit is shown apart, and the run total is given with and without it. (Approver)
 6. Every discount shows its dollar value and a pay-by date that has not passed. (Bookkeeper)
@@ -196,7 +196,9 @@ For every bill, in this order:
    sum of the lines beside the stated total. Where a field is blank or
    cannot be made out, say which bill and which field and put no
    figure in its place.
-2. If the supplier is not on the supplier list, hold it.
+2. If the supplier is not on the supplier list, hold it. If the
+   supplier appears twice on the list under near-identical names, hold
+   that supplier's bills and ask the bookkeeper which record is right.
 3. If the pay-to account on the bill differs from the one on file, or
    the bill asks for a new account or urgent payment, mark it STOPPED
    whatever else matches. It stays out of the run until [your
@@ -210,8 +212,9 @@ For every bill, in this order:
    than the possible-duplicate window. Hold the bill and point to the
    two rows. A bill the paid bills show as
    already paid, by card or any other way, is not owed again.
-5. If the bill has a purchase order, match each line against the order
-   line and the receiving log. One outcome per line: matched; within
+5. If the bill has a purchase order and its lines were not supplied,
+   hold it as "lines not supplied". Otherwise match each line against
+   the order line and the receiving log. One outcome per line: matched; within
    tolerance (passes, difference noted); price over; billed above
    received; nothing received yet; order not in the export; charge not
    ordered. All but the first two hold the bill. State what was
@@ -226,7 +229,13 @@ Then:
 7. Credits: for a supplier with a credit note, set the bills owed
    beside the credit and show the net. Keep the bill in the run at its
    full amount and give the run total both ways. Take a credit off a
-   payment only when the approver has said so.
+   payment only when the approver has said so. Where a supplier's
+   credits come to more than that supplier's open bills, keep those
+   bills out of the run total and count them with the held bills, with
+   the reason "covered by credit"; under Credits show the bills, the
+   credits and how much credit would be left once the bills were
+   covered; and ask the approver whether to use the credit against
+   those bills or to pay them and keep it.
 8. A bill that passed every check is ready. A bill with one held line
    is held whole. For every held bill show the difference and the
    amount not in question, which is the bill total less the differences
