@@ -1,0 +1,68 @@
+{
+  "id": "price-change-review",
+  "name": "Price change review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before prices change, the owner or finance lead gets one review: the margin on each product or service from the sales and cost exports, how costs have moved, what each proposed price does to sales and gross profit across a stated range of customer responses, and dated competitor prices. It recommends no price.",
+  "directory": "https://fullypowered.ai/capabilities/price-change-review/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/sales"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/manufacturing",
+    "industries/hospitality",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "discount-request-review",
+    "competitor-profile-from-public-pages",
+    "slow-moving-stock-and-markdown-plan"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work, written for this template: the exports read under named headers with a stop on any mismatch, competitor prices used only with the date and place they were seen and set aside past an age limit, totals across all items, the owner's margin floor, the rounding rules, and the questions for the owner."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/finance/managing-pricing-analysis/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Starting from today's margin by product line, the gap between list price and price paid, placing a proposal against dated competitor prices, scenarios in sales, units and gross profit with the cost assumption stated, the fall in units at which gross profit stops improving, and keeping customer commitments in view.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "CarvalhoJeo/claude-small-business-br",
+      "commit": "93a6504e4bfbe9bc1d6a795252b67558e0da39d3",
+      "path": "archive/nonlocalized-skills/margin-analyzer/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Item figures from amounts collected and unit costs, refusing a zero cost and counting a service owner's own time, margin taken by rising costs while prices stood still, several assumed falls in units when history is thin, one earlier price rise read as one observation only, a note on data limits, and no price recommended.",
+      "text_reused": false,
+      "notice": "notices/CarvalhoJeo-claude-small-business-br-LICENSE-and-NOTICE.txt"
+    }
+  ]
+}

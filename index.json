@@ -4,6 +4,14 @@
   "term": "functions/finance-and-accounting",
   "capabilities": [
     {
+      "id": "annual-operating-budget",
+      "name": "Annual operating budget",
+      "version": "0.1.0",
+      "summary": "For an owner or finance lead preparing next year: revenue and costs by month and by team, built from this year's figures and each budget owner's drivers, every assumption written down, capital purchases listed apart, the whole checked against cash, and the questions leadership has to settle.",
+      "path": "annual-operating-budget/",
+      "directory": "https://fullypowered.ai/capabilities/annual-operating-budget/"
+    },
+    {
       "id": "audit-preparation",
       "name": "Audit preparation",
       "version": "0.1.0",
@@ -60,6 +68,14 @@
       "directory": "https://fullypowered.ai/capabilities/overdue-invoice-follow-up-preparation/"
     },
     {
+      "id": "price-change-review",
+      "name": "Price change review",
+      "version": "0.1.0",
+      "summary": "Before prices change, the owner or finance lead gets one review: the margin on each product or service from the sales and cost exports, how costs have moved, what each proposed price does to sales and gross profit across a stated range of customer responses, and dated competitor prices. It recommends no price.",
+      "path": "price-change-review/",
+      "directory": "https://fullypowered.ai/capabilities/price-change-review/"
+    },
+    {
       "id": "receivables-exception-review",
       "name": "Receivables exception review",
       "version": "0.1.0",
@@ -98,6 +114,14 @@
       "summary": "The finance lead takes one page into each week’s management meeting: what came in, where every receivable stands, which exceptions are open and who owns them, and the decisions management must make. Every figure ties to the aging report.",
       "path": "weekly-receivables-summary/",
       "directory": "https://fullypowered.ai/capabilities/weekly-receivables-summary/"
+    },
+    {
+      "id": "year-end-tax-packet-for-the-accountant",
+      "name": "Year-end tax packet for the accountant",
+      "version": "0.1.0",
+      "summary": "Once the year's books are closed, the owner or bookkeeper hands the accountant one packet: the documents asked for and what is still missing, every contractor paid over the reporting line with missing tax forms flagged, the year's estimated tax payments, and the questions to ask. It works out no tax.",
+      "path": "year-end-tax-packet-for-the-accountant/",
+      "directory": "https://fullypowered.ai/capabilities/year-end-tax-packet-for-the-accountant/"
     }
   ]
 }

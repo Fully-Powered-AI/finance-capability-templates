@@ -1,0 +1,67 @@
+{
+  "id": "year-end-tax-packet-for-the-accountant",
+  "name": "Year-end tax packet for the accountant",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Once the year's books are closed, the owner or bookkeeper hands the accountant one packet: the documents asked for and what is still missing, every contractor paid over the reporting line with missing tax forms flagged, the year's estimated tax payments, and the questions to ask. It works out no tax.",
+  "directory": "https://fullypowered.ai/capabilities/year-end-tax-packet-for-the-accountant/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/construction",
+    "industries/ecommerce-and-retail",
+    "industries/marketing-and-advertising"
+  ],
+  "situations": [
+    "situations/startups-and-new-ventures",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "month-end-close-checklist",
+    "bank-reconciliation-preparation",
+    "audit-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's brief and rules for this capability: figures restated from the closed books with arithmetic checks, the accountant's own list marked item by item, contractor totals limited to the named service accounts with everything else shown and not counted, estimated payments listed as recorded with no judgment on them, the reporting rule as an input from the accountant, unanswered questions and named actions, and approval by a person before anything goes."
+    },
+    {
+      "kind": "third-party",
+      "repository": "GTMify/aigtm",
+      "commit": "1cb992d7589f85b8ffa07f13f2c60f2028ba39b4",
+      "path": "skills/tax-prep-helper/SKILL.md",
+      "licence": "MIT",
+      "contribution": "One packet for the accountant with documents, figures and questions; organizing only, never an amount due; a stop at any tax authority letter or audit; contractors over the line listed with their tax form details, card, platform and corporation cases left to the accountant.",
+      "text_reused": false,
+      "notice": "notices/GTMify-aigtm-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/tax-season-organizer/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "From the package's main file, its reference files (reference/connector-queries.md, reference/gotchas.md, reference/calculation-assumptions.md) and the plugin's shared file on personal data (small-business/shared/personal-data.md):closed books first; the country settled before country rules, with no rate or threshold from memory; tax year, disclaimer and assumptions at the top; payee totals by date paid across sources; look-alike names put to a person, never joined; tax form status per payee and a missing-forms list; no personal numbers repeated; nothing filed; asking when headings do not match.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    }
+  ]
+}

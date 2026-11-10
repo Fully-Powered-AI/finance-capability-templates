@@ -1,0 +1,68 @@
+{
+  "id": "annual-operating-budget",
+  "name": "Annual operating budget",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "For an owner or finance lead preparing next year: revenue and costs by month and by team, built from this year's figures and each budget owner's drivers, every assumption written down, capital purchases listed apart, the whole checked against cash, and the questions leadership has to settle.",
+  "directory": "https://fullypowered.ai/capabilities/annual-operating-budget/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/leadership"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/manufacturing",
+    "industries/ecommerce-and-retail",
+    "industries/nonprofits"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "headcount-plan",
+    "thirteen-week-cash-flow-forecast",
+    "budget-versus-actual-variance-commentary"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work, written for this template: inputs read under named headers with a stop on any mismatch, this year's figures tied out first, submitted figures never changed to meet a target, drivers recomputed and mismatches put to their owners, the phasing rules, missing lines carried only on instruction, the capitalisation limit check, the payment delay in the cash check, and the questions for owners and leadership."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/finance/building-annual-operating-plans/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Next year built from this year's figures, revenue derived from quantities and prices, people costs taken from a separate staffing plan, capital purchases on their own dated list, figures spread across the months, a cash test that includes a lower-revenue case, a comparison with leadership's targets, and a record of where each assumption came from.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/finance/managing-corporate-budgeting/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "A submission from each budget owner, a reason asked for whenever a line moves sharply from this year, a list of submissions not yet received, people costs checked against the approved staffing plan, totals checked at every level, and gaps handed to leadership before approval.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    }
+  ]
+}
