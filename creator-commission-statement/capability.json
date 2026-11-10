@@ -1,0 +1,55 @@
+{
+  "id": "creator-commission-statement",
+  "name": "Creator commission statement",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Each month, the finance lead gets a draft statement of what every creator has earned, worked from the store's orders export: commission under the programme's rules, flat fees, amounts carried under the minimum, and a payout list. A person approves it; finance pays.",
+  "directory": "https://fullypowered.ai/capabilities/creator-commission-statement/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/marketing-and-content"
+  ],
+  "industries": [
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "supplier-bill-review-and-payment-run-preparation",
+    "weekly-receivables-summary",
+    "month-end-close-checklist"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The commission statement in Fully Powered AI's own influencer-marketing capability templates (MIT), rewritten here as a self-contained template that works from exports a person supplies, with its own rules for prepared work: every order placed once, every gap named, and a person who approves and pays."
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/marketing-growth/affiliate-program",
+      "licence": "MIT",
+      "contribution": "Four practices for paying affiliates: commission worked on the order subtotal rather than on shipping and tax, holding a sale through the refund window before it earns, a minimum payout, and setting aside an order whose buyer email is the affiliate's own.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    }
+  ]
+}

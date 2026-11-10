@@ -4,6 +4,30 @@
   "term": "functions/finance-and-accounting",
   "capabilities": [
     {
+      "id": "bank-reconciliation-preparation",
+      "name": "Bank reconciliation preparation",
+      "version": "0.1.0",
+      "summary": "Before the month is signed off, your bookkeeper holds one bank reconciliation for one account: every statement line matched to the books or explained, every open item aged, a proof that the two balances agree, and the entries still to make. Nothing is posted until a person approves.",
+      "path": "bank-reconciliation-preparation/",
+      "directory": "https://fullypowered.ai/capabilities/bank-reconciliation-preparation/"
+    },
+    {
+      "id": "budget-versus-actual-variance-commentary",
+      "name": "Budget-versus-actual variance commentary",
+      "version": "0.1.0",
+      "summary": "Before the month's results go to management, the finance lead gets written commentary on every line that moved past the threshold: the figures, the budget owner's explanation marked confirmed or to be confirmed, a bridge from budget to actual, and the questions still open. No cause is invented.",
+      "path": "budget-versus-actual-variance-commentary/",
+      "directory": "https://fullypowered.ai/capabilities/budget-versus-actual-variance-commentary/"
+    },
+    {
+      "id": "creator-commission-statement",
+      "name": "Creator commission statement",
+      "version": "0.1.0",
+      "summary": "Each month, the finance lead gets a draft statement of what every creator has earned, worked from the store's orders export: commission under the programme's rules, flat fees, amounts carried under the minimum, and a payout list. A person approves it; finance pays.",
+      "path": "creator-commission-statement/",
+      "directory": "https://fullypowered.ai/capabilities/creator-commission-statement/"
+    },
+    {
       "id": "month-end-close-checklist",
       "name": "Month-end close checklist",
       "version": "0.1.0",
@@ -34,6 +58,14 @@
       "summary": "Before each payment run, the person who approves it gets one sheet: every supplier bill checked against its purchase order and what was received, duplicates and changed bank details stopped, credits shown, and a proposed run with its total. Nothing is paid until a person approves.",
       "path": "supplier-bill-review-and-payment-run-preparation/",
       "directory": "https://fullypowered.ai/capabilities/supplier-bill-review-and-payment-run-preparation/"
+    },
+    {
+      "id": "thirteen-week-cash-flow-forecast",
+      "name": "Thirteen-week cash flow forecast",
+      "version": "0.1.0",
+      "summary": "The owner sees cash week by week for the next thirteen weeks: what comes in, what goes out, the lowest point and every week below the floor they set, with each assumption written on the page. The forecast informs the decision; the owner makes it, and nothing is paid or moved.",
+      "path": "thirteen-week-cash-flow-forecast/",
+      "directory": "https://fullypowered.ai/capabilities/thirteen-week-cash-flow-forecast/"
     },
     {
       "id": "weekly-receivables-summary",

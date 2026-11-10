@@ -1,0 +1,66 @@
+{
+  "id": "budget-versus-actual-variance-commentary",
+  "name": "Budget-versus-actual variance commentary",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before the month's results go to management, the finance lead gets written commentary on every line that moved past the threshold: the figures, the budget owner's explanation marked confirmed or to be confirmed, a bridge from budget to actual, and the questions still open. No cause is invented.",
+  "directory": "https://fullypowered.ai/capabilities/budget-versus-actual-variance-commentary/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/analytics-and-reporting"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/manufacturing",
+    "industries/nonprofits"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "month-end-close-checklist",
+    "weekly-receivables-summary",
+    "supplier-bill-review-and-payment-run-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared work, written for this template: the export read under named headers with a stop on any mismatch, the floor, explanations taken only from budget owners and marked confirmed or to be confirmed, the checks for the finance lead and the questions for each owner."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "finance/skills/variance-analysis",
+      "licence": "Apache-2.0",
+      "contribution": "The volume and price split of a line's variance with the check that the parts add back, commenting when either an amount or a percentage limit is passed, putting the largest variances first, a note per line on what is expected next, the warning against explanations that only repeat the movement, and a budget-to-actual bridge that must reconcile.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/finance/conducting-variance-analysis",
+      "licence": "Apache-2.0",
+      "contribution": "Reconciling the totals before any line is examined, adapted here as adding the lines to the export's own totals, ranking variances by size, the favourable and unfavourable rule for revenue and cost lines, flagging a line with spending and no budget, gathering lines under the limit into one figure, showing opposing amounts rather than only their net, the check against explanations that only repeat the movement, and marking figures from outside the ledger.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    }
+  ]
+}

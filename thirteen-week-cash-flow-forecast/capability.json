@@ -1,0 +1,68 @@
+{
+  "id": "thirteen-week-cash-flow-forecast",
+  "name": "Thirteen-week cash flow forecast",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "The owner sees cash week by week for the next thirteen weeks: what comes in, what goes out, the lowest point and every week below the floor they set, with each assumption written on the page. The forecast informs the decision; the owner makes it, and nothing is paid or moved.",
+  "directory": "https://fullypowered.ai/capabilities/thirteen-week-cash-flow-forecast/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/leadership"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/construction",
+    "industries/professional-services",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/startups-and-new-ventures"
+  ],
+  "related": [
+    "weekly-receivables-summary",
+    "supplier-bill-review-and-payment-run-preparation",
+    "overdue-invoice-follow-up-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for prepared financial work: numbered assumptions printed on the forecast with the weeks each affects, checks that prove the arithmetic and account for every export row, nothing counted that the owner has not confirmed, the decisions written as facts for the owner with no recommendation, and nothing paid, moved or sent."
+    },
+    {
+      "kind": "third-party",
+      "repository": "GTMify/aigtm",
+      "commit": "1cb992d7589f85b8ffa07f13f2c60f2028ba39b4",
+      "path": "skills/cash-flow-forecast",
+      "licence": "MIT",
+      "contribution": "The thirteen-week grid of receipts and payments by kind with closing cash each week; only won sales counted; a check for commonly forgotten payments such as tax estimates and insurance; no figure estimated that the owner did not give, payroll included; the lowest point with its cause; how long cash lasts with no new sales; flags for weeks below one payroll or below zero; a case where the largest customers pay late; a one-line view of where the business stands; no financing advice; rolling forward weekly; a professional check before debt, new staff or payouts to owners.",
+      "text_reused": false,
+      "notice": "notices/GTMify-aigtm-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/cash-flow-snapshot",
+      "licence": "Apache-2.0",
+      "contribution": "Never assuming an opening balance and stating its date; timing each invoice by the customer's own payment history, with a fallback when it is thin; showing unclear export headers and asking; leaving out invoices with nothing left to pay; spotting regular payments recorded as separate bills (same supplier, similar amount, three months running) and asking before counting them; counting card spending not yet in the books; naming every source used and not supplied; treating a blank as unknown, not zero.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    }
+  ]
+}
