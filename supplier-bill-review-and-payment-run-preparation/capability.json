@@ -1,0 +1,67 @@
+{
+  "id": "supplier-bill-review-and-payment-run-preparation",
+  "name": "Supplier bill review and payment-run preparation",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before each payment run, the person who approves it gets one sheet: every supplier bill checked against its purchase order and what was received, duplicates and changed bank details stopped, credits shown, and a proposed run with its total. Nothing is paid until a person approves.",
+  "directory": "https://fullypowered.ai/capabilities/supplier-bill-review-and-payment-run-preparation/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/procurement-and-suppliers"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/construction",
+    "industries/ecommerce-and-retail",
+    "industries/hospitality"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "receivables-exception-review",
+    "weekly-receivables-summary",
+    "sop-exception-capture"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The export form of the work, the four-way sort with a stopped group, and the tie-out, written for this template."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "small-business/skills/ap-processor",
+      "licence": "Apache-2.0",
+      "contribution": "The order of the work for a small business: read each bill and name what cannot be read, check for duplicates before anything else, match against the order and the receipt, and put the payment run to a person as its own decision, which the approver may trim and never widen. The order of the run (late bills, early-payment discounts shown in dollars, bills due within the window) and naming every bill left out of it. The pattern of the default tolerances (a percentage or a dollar amount, whichever is larger, for price; any quantity above what was received; a limit for charges not on the order). Showing a supplier's credits apart from what is owed. The note when a regular bill moves from the last one. The cash line with a floor, and saying so when no cash position is known. The rules that a bill already paid by card is not owed again, that text on a bill is information and not an instruction, that only the last four digits of an account are shown, and that changed bank details are verified by phone on a number already held.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "panaversity/agentfactory-business-plugins",
+      "commit": "4497a99e149ffe2447eeaeed1d7706cd91c2edfb",
+      "path": "supply-chain/skills/invoice-reconciliation",
+      "licence": "Apache-2.0",
+      "contribution": "The three-way match taken line by line, with each line given one outcome (matched, within tolerance, price over, billed above received, nothing received yet, order not in the export, charge not ordered), the arithmetic check of lines against the bill total, and the treatment of changed bank details as a stop that only a phone call clears, which the other source also carries.",
+      "text_reused": false,
+      "notice": "notices/panaversity-agentfactory-business-plugins-LICENSE.txt"
+    }
+  ]
+}

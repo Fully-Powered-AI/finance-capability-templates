@@ -28,6 +28,14 @@
       "directory": "https://fullypowered.ai/capabilities/receivables-exception-review/"
     },
     {
+      "id": "supplier-bill-review-and-payment-run-preparation",
+      "name": "Supplier bill review and payment-run preparation",
+      "version": "0.1.0",
+      "summary": "Before each payment run, the person who approves it gets one sheet: every supplier bill checked against its purchase order and what was received, duplicates and changed bank details stopped, credits shown, and a proposed run with its total. Nothing is paid until a person approves.",
+      "path": "supplier-bill-review-and-payment-run-preparation/",
+      "directory": "https://fullypowered.ai/capabilities/supplier-bill-review-and-payment-run-preparation/"
+    },
+    {
       "id": "weekly-receivables-summary",
       "name": "Weekly receivables summary",
       "version": "0.1.0",
