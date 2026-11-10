@@ -1,0 +1,87 @@
+{
+  "id": "spreadsheet-check-before-sharing",
+  "name": "Spreadsheet check before sharing",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before a model or schedule goes to a client, a lender or a board, the sender gets one report on it: every error value, short total, buried assumption and hidden row pinned to its cell, each with a fix or a question, and a plain list of what was not checked. Nothing in the workbook is changed.",
+  "directory": "https://fullypowered.ai/capabilities/spreadsheet-check-before-sharing/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/quality-management"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/finance-and-investment",
+    "industries/real-estate",
+    "industries/nonprofits"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "budget-versus-actual-variance-commentary",
+    "thirteen-week-cash-flow-forecast",
+    "month-end-close-checklist"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for a check before sending: the twelve-item checklist written for any assistant, the pasted-range format with a stop on a block that does not name its cells, the Tidy if time section and the rule moving housekeeping that feeds a headline figure into Confirm, the label and period check, what the recipient can see, the effect on headline figures, and the refusal to send."
+    },
+    {
+      "kind": "third-party",
+      "repository": "petehottelet/spreadsheet-auditor",
+      "commit": "9930ae779c68f05cdd7520092bcad5aa2c4c497b",
+      "path": "SKILL.md",
+      "licence": "MIT",
+      "contribution": "Checking each suspect cell in its context and sorting it as a mistake, something to confirm or fine by design; testing a suspect total against a parallel total; one finding per cell and per repeated formula; leaving the workbook read-only; treating workbook text as data; and always stating the coverage limits.",
+      "text_reused": false,
+      "notice": "notices/petehottelet-spreadsheet-auditor-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "petehottelet/spreadsheet-auditor",
+      "commit": "9930ae779c68f05cdd7520092bcad5aa2c4c497b",
+      "path": "references/check_catalog.md",
+      "licence": "MIT",
+      "contribution": "The kinds of spreadsheet error worth checking, from error values and deleted references through short and double-counted totals, pattern breaks, plugs, buried constants, hidden inputs, text numbers, duplicate keys, swallowed errors and volatile functions to the balance, sign and period checks, and which kinds are often by design.",
+      "text_reused": false,
+      "notice": "notices/petehottelet-spreadsheet-auditor-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "petehottelet/spreadsheet-auditor",
+      "commit": "9930ae779c68f05cdd7520092bcad5aa2c4c497b",
+      "path": "references/report_template.md",
+      "licence": "MIT",
+      "contribution": "The statement that the report is no certification that the workbook is correct, the coverage section saying what was and was not checked, and the shape of a finding: its evidence, its effect and its fix.",
+      "text_reused": false,
+      "notice": "notices/petehottelet-spreadsheet-auditor-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "petehottelet/spreadsheet-auditor",
+      "commit": "9930ae779c68f05cdd7520092bcad5aa2c4c497b",
+      "path": "references/severity_rubric.md",
+      "licence": "MIT",
+      "contribution": "Raising a finding that feeds a headline output, and lowering one that appears intentional.",
+      "text_reused": false,
+      "notice": "notices/petehottelet-spreadsheet-auditor-LICENSE.txt"
+    }
+  ]
+}
