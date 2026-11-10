@@ -4,6 +4,14 @@
   "term": "functions/finance-and-accounting",
   "capabilities": [
     {
+      "id": "audit-preparation",
+      "name": "Audit preparation",
+      "version": "0.1.0",
+      "summary": "Before the external auditors arrive, your controller holds one audit pack: every request with its owner, date, document and status, the control evidence they will test, last year's findings and what was done, and draft answers to the questions they will ask. People approve everything before it goes.",
+      "path": "audit-preparation/",
+      "directory": "https://fullypowered.ai/capabilities/audit-preparation/"
+    },
+    {
       "id": "bank-reconciliation-preparation",
       "name": "Bank reconciliation preparation",
       "version": "0.1.0",
@@ -26,6 +34,14 @@
       "summary": "Each month, the finance lead gets a draft statement of what every creator has earned, worked from the store's orders export: commission under the programme's rules, flat fees, amounts carried under the minimum, and a payout list. A person approves it; finance pays.",
       "path": "creator-commission-statement/",
       "directory": "https://fullypowered.ai/capabilities/creator-commission-statement/"
+    },
+    {
+      "id": "investor-update",
+      "name": "Investor update",
+      "version": "0.1.0",
+      "summary": "Each month or quarter, the founder gets a drafted update for investors: the headline, key figures against plan and last period, cash and runway, wins, problems told plainly with what is being done, and specific asks. Every figure comes from the company's own reports. The founder approves and sends it.",
+      "path": "investor-update/",
+      "directory": "https://fullypowered.ai/capabilities/investor-update/"
     },
     {
       "id": "month-end-close-checklist",
