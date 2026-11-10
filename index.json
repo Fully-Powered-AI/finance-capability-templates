@@ -1,0 +1,31 @@
+{
+  "repository": "Fully-Powered-AI/finance-capabilities",
+  "title": "Finance",
+  "term": "functions/finance-and-accounting",
+  "capabilities": [
+    {
+      "id": "overdue-invoice-follow-up-preparation",
+      "name": "Overdue-invoice follow-up preparation",
+      "version": "0.1.0",
+      "summary": "Every overdue invoice gets a follow-up drafted in your firm’s tone for its age and addressed from the right person, and every invoice that should not be chased is held with the reason written down.",
+      "path": "overdue-invoice-follow-up-preparation/",
+      "directory": "https://fullypowered.ai/capabilities/overdue-invoice-follow-up-preparation/"
+    },
+    {
+      "id": "receivables-exception-review",
+      "name": "Receivables exception review",
+      "version": "0.1.0",
+      "summary": "The controller gets every short payment, unmatched or ambiguous receipt, possible duplicate and disputed invoice on one list, each with its evidence and a proposed next step, before anything is applied on a guess.",
+      "path": "receivables-exception-review/",
+      "directory": "https://fullypowered.ai/capabilities/receivables-exception-review/"
+    },
+    {
+      "id": "weekly-receivables-summary",
+      "name": "Weekly receivables summary",
+      "version": "0.1.0",
+      "summary": "The finance lead takes one page into each week’s management meeting: what came in, where every receivable stands, which exceptions are open and who owns them, and the decisions management must make. Every figure ties to the aging report.",
+      "path": "weekly-receivables-summary/",
+      "directory": "https://fullypowered.ai/capabilities/weekly-receivables-summary/"
+    }
+  ]
+}

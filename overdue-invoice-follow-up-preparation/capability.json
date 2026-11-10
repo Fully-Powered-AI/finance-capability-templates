@@ -1,0 +1,41 @@
+{
+  "id": "overdue-invoice-follow-up-preparation",
+  "name": "Overdue-invoice follow-up preparation",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Every overdue invoice gets a follow-up drafted in your firm’s tone for its age and addressed from the right person, and every invoice that should not be chased is held with the reason written down.",
+  "directory": "https://fullypowered.ai/capabilities/overdue-invoice-follow-up-preparation/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/customer-success-and-account-management"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/law-firms",
+    "industries/marketing-and-advertising"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/established-businesses"
+  ],
+  "related": [
+    "receivables-exception-review",
+    "weekly-receivables-summary",
+    "client-status-update-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": []
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Its own working guides."
+    }
+  ]
+}
