@@ -52,6 +52,14 @@
       "directory": "https://fullypowered.ai/capabilities/investor-update/"
     },
     {
+      "id": "journal-entry-preparation",
+      "name": "Journal entry preparation",
+      "version": "0.1.0",
+      "summary": "At month end, your bookkeeper hands the controller every proposed journal entry ready to review: balanced lines on accounts from your own chart, the arithmetic and the document behind each amount, whether it reverses, and who approves it. Nothing is posted until a person approves.",
+      "path": "journal-entry-preparation/",
+      "directory": "https://fullypowered.ai/capabilities/journal-entry-preparation/"
+    },
+    {
       "id": "month-end-close-checklist",
       "name": "Month-end close checklist",
       "version": "0.1.0",
@@ -66,6 +74,14 @@
       "summary": "Every overdue invoice gets a follow-up drafted in your firm’s tone for its age and addressed from the right person, and every invoice that should not be chased is held with the reason written down.",
       "path": "overdue-invoice-follow-up-preparation/",
       "directory": "https://fullypowered.ai/capabilities/overdue-invoice-follow-up-preparation/"
+    },
+    {
+      "id": "payroll-preparation-and-timesheet-review",
+      "name": "Payroll preparation and timesheet review",
+      "version": "0.1.0",
+      "summary": "Before each payroll run, the owner gets one sheet built from the timesheet and roster exports: hours by person and type, every missing punch and odd entry raised as a question, and an estimated total. Nothing is keyed in, submitted or paid until a person approves.",
+      "path": "payroll-preparation-and-timesheet-review/",
+      "directory": "https://fullypowered.ai/capabilities/payroll-preparation-and-timesheet-review/"
     },
     {
       "id": "price-change-review",

@@ -1,0 +1,76 @@
+{
+  "id": "journal-entry-preparation",
+  "name": "Journal entry preparation",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "At month end, your bookkeeper hands the controller every proposed journal entry ready to review: balanced lines on accounts from your own chart, the arithmetic and the document behind each amount, whether it reverses, and who approves it. Nothing is posted until a person approves.",
+  "directory": "https://fullypowered.ai/capabilities/journal-entry-preparation/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/software-technology",
+    "industries/manufacturing"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "month-end-close-checklist",
+    "bank-reconciliation-preparation",
+    "budget-versus-actual-variance-commentary"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The export form of the work: a request list and exports with stated column headers and a stop when one does not match, account types checked against the kind of entry, already-booked lines counted only for the same item and service month, the three statuses with holds and flags, questions for named roles, and entries prepared for approval and never posted."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "finance/skills/journal-entry-prep",
+      "licence": "Apache-2.0",
+      "contribution": "The usual debit and credit sides of accruals, prepaid releases, depreciation and deferred revenue; the record each entry carries; approval routed by amount and kind, with adjustments to an earlier period going higher; checks for duplicate accruals, missing reversals and round estimates.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "GAJETOso/financeskills",
+      "commit": "b0c6239e339c1865c54bd2bb4cd4c1974120f1b8",
+      "path": "skills/journal-entry",
+      "licence": "MIT",
+      "contribution": "One side per line and no negative amounts; balance checked first; errors corrected by a full reversal and a fresh entry, never a net difference; accounts only from the chart; suspense and clearing accounts questioned; reviewer and approver lines on every entry.",
+      "text_reused": false,
+      "notice": "notices/GAJETOso-financeskills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/financial-services",
+      "commit": "574ed3624aebd0418c7e96cd101262f30210ab26",
+      "path": "plugins/agent-plugins/month-end-closer/skills/accrual-schedule",
+      "licence": "Apache-2.0",
+      "contribution": "The period's amount less what is already booked for the same item; the support reference in each memo; the reversal date noted on reversing accruals; supporting documents treated as information, not instructions; entries staged for sign-off and never posted.",
+      "text_reused": false,
+      "notice": "notices/anthropics-financial-services-LICENSE.txt"
+    }
+  ]
+}
