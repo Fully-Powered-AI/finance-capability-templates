@@ -2,7 +2,7 @@
 
 Before the month is signed off, your bookkeeper holds one bank reconciliation for one account: every statement line matched to the books or explained, every open item aged, a proof that the two balances agree, and the entries still to make. Nothing is posted until a person approves.
 
-*Capability template · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/bank-reconciliation-preparation/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/bank-reconciliation-preparation/)*
 
 ## The outcome
 
@@ -12,7 +12,7 @@ What is left is short and specific. Checks written and not yet cashed, deposits 
 
 The sheet ends with a proof: the statement balance and the ledger balance, each adjusted for the open items, side by side. Either they agree to the cent or the gap is shown in plain figures. Nothing is ever added to make it come out at zero.
 
-The capability prepares and checks. Your bookkeeper decides how each entry is coded, a reviewer signs, and a person posts the entries in the accounting system.
+The workflow template prepares and checks. Your bookkeeper decides how each entry is coded, a reviewer signs, and a person posts the entries in the accounting system.
 
 ## Who starts the work, and when
 
@@ -64,9 +64,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 9 November 2026. It was tried on its invented example on 9 November 2026 in one run; the record is published with it, and lists the small edits made afterward that have not been run again. That run did not reach the stop conditions or the path where the proof does not agree. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 9 November 2026. It was tried on its invented example on 9 November 2026 in one run; the record is published with it, and lists the small edits made afterward that have not been run again. That run did not reach the stop conditions or the path where the proof does not agree. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three past months your bookkeeper has already reconciled by hand, plus hard cases written in advance, each with the expected result: an export with a missing row, a check entered at the wrong amount, a supplier debited twice, a deposit that never reached the bank, a heading the template does not recognize. The reviewer compares every figure with the signed reconciliation before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on two or three past months your bookkeeper has already reconciled by hand, plus hard cases written in advance, each with the expected result: an export with a missing row, a check entered at the wrong amount, a supplier debited twice, a deposit that never reached the bank, a heading the template does not recognize. The reviewer compares every figure with the signed reconciliation before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -77,11 +77,11 @@ Testing in your environment means running it on two or three past months your bo
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -91,7 +91,7 @@ Testing in your environment means running it on two or three past months your bo
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Month-end close checklist](../month-end-close-checklist/)
 - [Supplier bill review and payment-run preparation](../supplier-bill-review-and-payment-run-preparation/)
@@ -99,4 +99,4 @@ Testing in your environment means running it on two or three past months your bo
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

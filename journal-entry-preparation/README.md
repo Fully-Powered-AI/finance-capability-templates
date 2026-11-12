@@ -2,7 +2,7 @@
 
 At month end, your bookkeeper hands the controller every proposed journal entry ready to review: balanced lines on accounts from your own chart, the arithmetic and the document behind each amount, whether it reverses, and who approves it. Nothing is posted until a person approves.
 
-*Capability template · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/journal-entry-preparation/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/journal-entry-preparation/)*
 
 ## The outcome
 
@@ -10,7 +10,7 @@ The manual entries of the close arrive at the controller's desk as a package ins
 
 The package also catches the mistakes that cost a second close. An accrual for a bill that has already been posted. An account that is not in the chart, or has been retired. A correction booked as a net difference instead of a clean reversal. An accrual left standing into next month, where the real bill will land on top of it. A round number with nothing behind it. Each arrives as a hold or a flag, with a question for the person who can answer it.
 
-Your team still decides. The capability prepares and checks; the controller reviews, the right person approves, and someone on your team posts the entries.
+Your team still decides. The workflow template prepares and checks; the controller reviews, the right person approves, and someone on your team posts the entries.
 
 ## Who starts the work, and when
 
@@ -53,7 +53,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 ## What has to change for your company
 
 - **Your exports.** The column names your accounting system produces. If a heading does not match, it stops and asks rather than guessing.
-- **Your kinds of entry.** The capability knows accruals, prepaid releases, depreciation, deferred revenue, reclassifications and corrections. Add your own, such as payroll accruals, with the accounts each should use.
+- **Your kinds of entry.** The workflow template knows accruals, prepaid releases, depreciation, deferred revenue, reclassifications and corrections. Add your own, such as payroll accruals, with the accounts each should use.
 - **Your approval limits.** Who approves which amounts, and who approves a correction of a closed month.
 - **Your rules.** When depreciation starts on a new asset, the dates entries and reversals carry, and the round figure that should make a reviewer ask how an estimate was reached.
 - **Your roles.** Who prepares, reviews, approves and posts, and who answers questions about suppliers, customers and accounting treatment.
@@ -61,9 +61,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 9 November 2026 in two runs: the instructions were revised after the first, and the record of the second is published with it. Neither run reached the stop conditions. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 9 November 2026 in two runs: the instructions were revised after the first, and the record of the second is published with it. Neither run reached the stop conditions. It has not yet been tested in a client environment, and it has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three past months whose entries your controller already approved, plus hard cases written in advance, each with the expected result: an accrual for a bill already posted, an account retired from the chart, a correction of a closed month, an asset placed in service mid-month, a heading the template does not recognize. The controller compares every line with the approved entries before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on two or three past months whose entries your controller already approved, plus hard cases written in advance, each with the expected result: an accrual for a bill already posted, an account retired from the chart, a correction of a closed month, an asset placed in service mid-month, a heading the template does not recognize. The controller compares every line with the approved entries before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -74,11 +74,11 @@ Testing in your environment means running it on two or three past months whose e
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -88,7 +88,7 @@ Testing in your environment means running it on two or three past months whose e
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Month-end close checklist](../month-end-close-checklist/)
 - [Bank reconciliation preparation](../bank-reconciliation-preparation/)
@@ -96,4 +96,4 @@ Testing in your environment means running it on two or three past months whose e
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

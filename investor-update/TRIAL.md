@@ -67,7 +67,7 @@ Shortcomings found in this run: the wider figures rule asks the founder to confi
 ## Changes made after the first run
 
 - The template: the founder's-figures rule widened to any figure or comparison stated as fact in any section, dates excepted, in the procedure and the instruction block, and to comparison words in the headline; a closely linked metric may be grouped with a problem, with a confirming question; "by when" defined as a day or at least a month; an expected loan's amount allowed on the Not counted line, and a loan's interest rate and conditions added to what goes to the company's advisers; the instruction block now carries the rule for figures under Since the last update, the stop when two rows share a metric name, the wording when the last update is missing, and the founder's description on the funding-received line; acceptance test 4 corrected to 15.754.
-- The example: its draft set out as plain text in the output format, with the questions and markers the edited rules call for; its introduction now says the draft is the one the capability prepares, not the one a run returned.
+- The example: its draft set out as plain text in the output format, with the questions and markers the edited rules call for; its introduction now says the draft is the one the workflow template prepares, not the one a run returned.
 
 ## The first run
 

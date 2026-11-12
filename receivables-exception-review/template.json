@@ -1,10 +1,10 @@
 {
   "id": "receivables-exception-review",
   "name": "Receivables exception review",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The controller gets every short payment, unmatched or ambiguous receipt, possible duplicate and disputed invoice on one list, each with its evidence and a proposed next step, before anything is applied on a guess.",
-  "directory": "https://fullypowered.ai/capabilities/receivables-exception-review/",
+  "directory": "https://fullypowered.ai/workflow templates/receivables-exception-review/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

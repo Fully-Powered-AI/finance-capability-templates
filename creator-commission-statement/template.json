@@ -1,10 +1,10 @@
 {
   "id": "creator-commission-statement",
   "name": "Creator commission statement",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Each month, the finance lead gets a draft statement of what every creator has earned, worked from the store's orders export: commission under the programme's rules, flat fees, amounts carried under the minimum, and a payout list. A person approves it; finance pays.",
-  "directory": "https://fullypowered.ai/capabilities/creator-commission-statement/",
+  "directory": "https://fullypowered.ai/workflow templates/creator-commission-statement/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",
@@ -39,7 +39,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "The commission statement in Fully Powered AI's own influencer-marketing capability templates (MIT), rewritten here as a self-contained template that works from exports a person supplies, with its own rules for prepared work: every order placed once, every gap named, and a person who approves and pays."
+      "title": "The commission statement in Fully Powered AI's own influencer-marketing workflow templates (MIT), rewritten here as a self-contained template that works from exports a person supplies, with its own rules for prepared work: every order placed once, every gap named, and a person who approves and pays."
     },
     {
       "kind": "third-party",

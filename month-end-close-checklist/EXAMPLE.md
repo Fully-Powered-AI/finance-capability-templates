@@ -1,6 +1,6 @@
 # Month-end close checklist: an invented example
 
-*Illustrative example with invented data.* The firm, the people, the tasks, the dates and the amounts below are all invented. The firm is an invented 45-person engineering consultancy whose finance team is a controller, a staff accountant, a billing coordinator and a payables and payroll clerk, reporting to a managing partner. First come the inputs the controller supplied, in full, then the checklist the capability returned.
+*Illustrative example with invented data.* The firm, the people, the tasks, the dates and the amounts below are all invented. The firm is an invented 45-person engineering consultancy whose finance team is a controller, a staff accountant, a billing coordinator and a payables and payroll clerk, reporting to a managing partner. First come the inputs the controller supplied, in full, then the checklist the workflow template returned.
 
 ## The inputs
 

@@ -1,10 +1,10 @@
 {
   "id": "weekly-receivables-summary",
   "name": "Weekly receivables summary",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The finance lead takes one page into each week’s management meeting: what came in, where every receivable stands, which exceptions are open and who owns them, and the decisions management must make. Every figure ties to the aging report.",
-  "directory": "https://fullypowered.ai/capabilities/weekly-receivables-summary/",
+  "directory": "https://fullypowered.ai/workflow templates/weekly-receivables-summary/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

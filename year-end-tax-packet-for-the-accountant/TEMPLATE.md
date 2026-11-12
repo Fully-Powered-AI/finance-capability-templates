@@ -1,6 +1,6 @@
 # Year-end tax packet for the accountant
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -13,7 +13,7 @@ Use it after the books for the tax year are closed and the year-end bank and car
 Do not use it:
 
 - while a notice, letter, audit or inquiry from a tax authority is open. That goes to the accountant at once, and this packet waits;
-- to close the books or reconcile an account. Those come first and are their own capabilities;
+- to close the books or reconcile an account. Those come first and are their own workflow templates;
 - to prepare for a financial statement audit. That is a different pack for a different reader;
 - to work out tax owed, an estimated payment, a deduction, a penalty or a safe-harbour figure, or to decide a business structure or an election. Those belong to the accountant. The packet lists them as questions;
 - to decide which states or countries the business must collect sales tax, VAT or GST in. Ask the accountant;

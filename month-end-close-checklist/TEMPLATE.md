@@ -1,6 +1,6 @@
 # Month-end close checklist
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it two or three working days before the month ends, in time for the cut-off 
 
 Do not use it:
 
-- to design a close for an organization that has no task list. The controller writes the first list; this capability dates and checks it;
+- to design a close for an organization that has no task list. The controller writes the first list; this workflow template dates and checks it;
 - to calculate an entry, reconcile an account or explain a movement in the numbers. Those are tasks on the checklist, done by the people who own them;
 - to decide how something should be accounted for. That is the controller's judgment;
 - for a quarter-end or year-end with audit and tax steps, unless those steps are already on the list supplied.

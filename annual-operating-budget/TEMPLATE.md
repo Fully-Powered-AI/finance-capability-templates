@@ -1,6 +1,6 @@
 # Annual operating budget
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it once a year when next year's budget is being set, after the budget owners
 
 Do not use it:
 
-- to plan people costs. Those come from the headcount plan, which this capability takes as an input and never builds or changes;
+- to plan people costs. Those come from the headcount plan, which this workflow template takes as an input and never builds or changes;
 - for a week-by-week cash forecast of the next quarter. Its cash check is monthly and coarse, a test of whether the budget can be afforded, not a forecast to manage cash by;
 - to explain this year's results against this year's budget. That is variance commentary;
 - to build a balance sheet or a full three-statement model, to work out tax, or to test loan conditions;

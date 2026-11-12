@@ -1,6 +1,6 @@
 # Investor update
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -14,11 +14,11 @@ Between regular updates, when news should not wait for the next one (a large cus
 
 Do not use it:
 
-- for board papers, or for anything the board must decide. That is the board meeting pack capability;
+- for board papers, or for anything the board must decide. That is the board meeting pack workflow template;
 - for a report a lender requires under a loan agreement, whose content and timing the agreement sets;
 - for a company whose shares trade on a public market. Its communications with investors follow the market's disclosure rules and its advisers;
 - to raise money. The update describes the company; it is not an offer of shares. Terms of a round, a valuation and the wording of any offer go to the company's advisers;
-- to build the figures. The finance lead prepares the reports; this capability reads them;
+- to build the figures. The finance lead prepares the reports; this workflow template reads them;
 - to forecast. Runway is worked out from the last three months as they happened, and nothing else is projected.
 
 ## Roles

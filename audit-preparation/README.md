@@ -2,7 +2,7 @@
 
 Before the external auditors arrive, your controller holds one audit pack: every request with its owner, date, document and status, the control evidence they will test, last year's findings and what was done, and draft answers to the questions they will ask. People approve everything before it goes.
 
-*Capability template · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/audit-preparation/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/audit-preparation/)*
 
 ## The outcome
 
@@ -12,7 +12,7 @@ The pack also looks where auditors look. It lists the controls they will test an
 
 Then the questions. Balances that moved enough to draw a question are listed with your own explanation, or with a question for you where there is none. Expected questions get draft answers built only from the facts you supply, each naming its source. Questions on legal claims, tax positions, suspected fraud or whether the business can keep operating go to the person you name, to answer with your advisers.
 
-The capability prepares and checks. Your team prepares the documents, a named person approves each item and each answer, and a person sends them to the auditors.
+The workflow template prepares and checks. Your team prepares the documents, a named person approves each item and each answer, and a person sends them to the auditors.
 
 ## Who starts the work, and when
 
@@ -62,9 +62,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in one run; the record of that run is published with it, and lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example on 10 November 2026 in one run; the record of that run is published with it, and lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on last year's audit, which your controller remembers well, plus hard cases written in advance, each with the expected result: an item with no owner, an item marked sent with no approval, a payment approved by the person who entered it, a finding marked done with no evidence, a heading the template does not recognize. The controller checks every date and figure before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on last year's audit, which your controller remembers well, plus hard cases written in advance, each with the expected result: an item with no owner, an item marked sent with no approval, a payment approved by the person who entered it, a finding marked done with no evidence, a heading the template does not recognize. The controller checks every date and figure before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -75,11 +75,11 @@ Testing in your environment means running it on last year's audit, which your co
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -89,7 +89,7 @@ Testing in your environment means running it on last year's audit, which your co
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Month-end close checklist](../month-end-close-checklist/)
 - [Bank reconciliation preparation](../bank-reconciliation-preparation/)
@@ -97,4 +97,4 @@ Testing in your environment means running it on last year's audit, which your co
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

@@ -2,7 +2,7 @@
 
 *Illustrative example with invented data.* The studio, its suppliers and customers, every account, document and figure below are invented. Harrow Lane Studio is an invented 30-person brand and product design studio. Its staff accountant prepares the October 2026 entries; its controller reviews them, and its finance director approves the larger ones. People are referred to by role, suppliers and customers by letter.
 
-The inputs come first, in full, so the template can be run on them. The package the capability should return follows; the trial record published with it shows what one run actually produced.
+The inputs come first, in full, so the template can be run on them. The package the workflow template should return follows; the trial record published with it shows what one run actually produced.
 
 ## The inputs
 

@@ -1,10 +1,10 @@
 {
   "id": "year-end-tax-packet-for-the-accountant",
   "name": "Year-end tax packet for the accountant",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Once the year's books are closed, the owner or bookkeeper hands the accountant one packet: the documents asked for and what is still missing, every contractor paid over the reporting line with missing tax forms flagged, the year's estimated tax payments, and the questions to ask. It works out no tax.",
-  "directory": "https://fullypowered.ai/capabilities/year-end-tax-packet-for-the-accountant/",
+  "directory": "https://fullypowered.ai/workflow templates/year-end-tax-packet-for-the-accountant/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"
@@ -41,7 +41,7 @@
   "sources": [
     {
       "kind": "own",
-      "title": "Fully Powered AI's brief and rules for this capability: figures restated from the closed books with arithmetic checks, the accountant's own list marked item by item, contractor totals limited to the named service accounts with everything else shown and not counted, estimated payments listed as recorded with no judgment on them, the reporting rule as an input from the accountant, unanswered questions and named actions, and approval by a person before anything goes."
+      "title": "Fully Powered AI's brief and rules for this workflow template: figures restated from the closed books with arithmetic checks, the accountant's own list marked item by item, contractor totals limited to the named service accounts with everything else shown and not counted, estimated payments listed as recorded with no judgment on them, the reporting rule as an input from the accountant, unanswered questions and named actions, and approval by a person before anything goes."
     },
     {
       "kind": "third-party",

@@ -4,7 +4,7 @@
 - **Model:** Claude Sonnet 5.5 (model ID `claude-sonnet-5-5`)
 - **Date:** 2026-11-10
 
-This is one run of the capability template on its own invented example. The inputs are the invented ones in `public/example.md`, sections 1 to 8 of "The inputs". No client data was used. The run was made by a session that did not write the template. It read the instructions block and the output format, and the example's inputs only, produced the packet, and only then compared it with the example's output and the reviewer checklist.
+This is one run of the workflow template on its own invented example. The inputs are the invented ones in `public/example.md`, sections 1 to 8 of "The inputs". No client data was used. The run was made by a session that did not write the template. It read the instructions block and the output format, and the example's inputs only, produced the packet, and only then compared it with the example's output and the reviewer checklist.
 
 ## Inputs used
 

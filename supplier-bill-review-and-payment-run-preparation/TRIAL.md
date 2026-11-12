@@ -4,7 +4,7 @@
 - **Model:** Claude Fable 5.2
 - **Date:** 2026-11-09
 
-This is a record of one run, the second of two, of the capability template on its own invented example. The company, the suppliers, the bills and every figure are invented, and no client data was used. It shows what the template produced once, on one set of inputs. It is not a test in any company's environment.
+This is a record of one run, the second of two, of the workflow template on its own invented example. The company, the suppliers, the bills and every figure are invented, and no client data was used. It shows what the template produced once, on one set of inputs. It is not a test in any company's environment.
 
 This record replaces an earlier one made the same day. That first run, on an earlier wording of the template, found a number of places where the instructions were unclear: whether the credit note sits inside the open bills total, the overlap between "ready" and "not yet due", which run figure the cash line uses, and several rules the procedure had and the instructions for the assistant lacked. The template and the example were revised to settle them, and the run was repeated from the start. What follows is the second run only.
 

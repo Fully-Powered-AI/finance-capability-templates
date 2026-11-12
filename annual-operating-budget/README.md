@@ -2,7 +2,7 @@
 
 For an owner or finance lead preparing next year: revenue and costs by month and by team, built from this year's figures and each budget owner's drivers, every assumption written down, capital purchases listed apart, the whole checked against cash, and the questions leadership has to settle.
 
-*Capability template · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/annual-operating-budget/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/annual-operating-budget/)*
 
 ## The outcome
 
@@ -22,7 +22,7 @@ The finance lead starts it a few months before the budget year begins, once the 
 - **Leadership's targets.** Revenue, result and the minimum cash balance.
 - **This year's figures,** by team and line, as a simple table with stated column headers.
 - **Each budget owner's submission:** next year's figure for every line, the driver behind it, how it falls across the months and the reason for any big change.
-- **The headcount plan,** people costs by team and month. [Headcount plan](https://fullypowered.ai/capabilities/headcount-plan/) prepares it.
+- **The headcount plan,** people costs by team and month. [Headcount plan](https://fullypowered.ai/workflows/headcount-plan/) prepares it.
 - **The capital purchases list,** and any loan repayments, tax payments or other cash movements that are not running costs.
 
 It works from files you supply. No connection to your accounting system or bank is needed, and none is asked for.
@@ -67,9 +67,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record of that run is published with it, lists the ambiguities it met, and lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026; the record of that run is published with it, lists the ambiguities it met, and lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on last year's budget round, which your finance lead remembers well, with hard cases written in advance: figures that do not add up, a driver that does not produce the owner's figure, a missing submission, a big change with no reason, a purchase that takes cash below the minimum. The finance lead checks every figure against the submissions before anyone relies on the draft. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on last year's budget round, which your finance lead remembers well, with hard cases written in advance: figures that do not add up, a driver that does not produce the owner's figure, a missing submission, a big change with no reason, a purchase that takes cash below the minimum. The finance lead checks every figure against the submissions before anyone relies on the draft. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -80,11 +80,11 @@ Testing in your environment means running it on last year's budget round, which 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -94,12 +94,12 @@ Testing in your environment means running it on last year's budget round, which 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Headcount plan](https://fullypowered.ai/capabilities/headcount-plan/)
+- [Headcount plan](https://fullypowered.ai/workflow templates/headcount-plan/)
 - [Thirteen-week cash flow forecast](../thirteen-week-cash-flow-forecast/)
 - [Budget-versus-actual variance commentary](../budget-versus-actual-variance-commentary/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

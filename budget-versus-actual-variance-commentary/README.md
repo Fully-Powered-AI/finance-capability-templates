@@ -2,7 +2,7 @@
 
 Before the month's results go to management, the finance lead gets written commentary on every line that moved past the threshold: the figures, the budget owner's explanation marked confirmed or to be confirmed, a bridge from budget to actual, and the questions still open. No cause is invented.
 
-*Capability template · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/budget-versus-actual-variance-commentary/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/)*
 
 ## The outcome
 
@@ -10,7 +10,7 @@ The results arrive with their story, and the story is honest about what is known
 
 The finance lead walks into the meeting with a bridge that runs from the budgeted result to the actual one, line by line, so nothing is left unaccounted for. The questions that remain are already written, each addressed to the owner who can answer it. Where the order figures or hours allow, a line's movement is split into how much came from volume and how much from price, labelled as arithmetic, not as a reason.
 
-The capability prepares. The budget owners explain, the finance lead approves, and nothing is sent until they do.
+The workflow template prepares. The budget owners explain, the finance lead approves, and nothing is sent until they do.
 
 ## Who starts the work, and when
 
@@ -63,9 +63,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 9 November 2026. It was tried on its invented example on 9 November 2026; the record is published with it, and lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 9 November 2026. It was tried on its invented example on 9 November 2026; the record is published with it, and lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three past months your finance lead remembers well, with hard cases written in advance: an export that does not tie, a line with no note, an explanation offered by someone other than the owner, a note that says under budget on a line that is over. The finance lead checks every figure against the export before anyone relies on the commentary. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on two or three past months your finance lead remembers well, with hard cases written in advance: an export that does not tie, a line with no note, an explanation offered by someone other than the owner, a note that says under budget on a line that is over. The finance lead checks every figure against the export before anyone relies on the commentary. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -76,11 +76,11 @@ Testing in your environment means running it on two or three past months your fi
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -90,7 +90,7 @@ Testing in your environment means running it on two or three past months your fi
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Month-end close checklist](../month-end-close-checklist/)
 - [Weekly receivables summary](../weekly-receivables-summary/)
@@ -98,4 +98,4 @@ Testing in your environment means running it on two or three past months your fi
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

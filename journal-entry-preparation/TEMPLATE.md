@@ -1,6 +1,6 @@
 # Journal entry preparation
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -13,7 +13,7 @@ Use it at month end, once the requests for manual entries are gathered: accruals
 Do not use it:
 
 - to plan the close, date its tasks or find who is late. That is the month-end close checklist;
-- to match the bank statement to the books. That is bank reconciliation preparation, which may produce some of the requests this capability prepares;
+- to match the bank statement to the books. That is bank reconciliation preparation, which may produce some of the requests this workflow template prepares;
 - to decide how something should be accounted for, such as whether a cost is an asset or an expense, how revenue on a contract should be recognized, or whether an error in a closed period needs a restatement. Those are the controller's judgments; the package states the question;
 - for payroll entries built from a payroll register, tax provisions, consolidation or intercompany eliminations, unless the organization has added its own rules for them;
 - when there is no chart of accounts to check against.

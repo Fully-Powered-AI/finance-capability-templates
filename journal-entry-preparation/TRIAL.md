@@ -5,7 +5,7 @@
 - **Date:** 2026-11-09
 - **Template version:** 0.1.0
 
-This is a record of one run of the capability template on its own invented example. The inputs are the invented ones for Harrow Lane Studio; no client data was used. Nothing was posted, approved, reversed or sent.
+This is a record of one run of the workflow template on its own invented example. The inputs are the invented ones for Harrow Lane Studio; no client data was used. Nothing was posted, approved, reversed or sent.
 
 This is the second run on the same example. An earlier run the same day, by Claude Sonnet 5.5, a model that had not written the template, matched the example on every figure, status, flag and approver, and showed where the instructions left room to guess. After an independent review the template was revised and two lines of the example's package were changed to follow it (see "The earlier run, and what was changed" at the end). The run recorded here was made on the revised template.
 

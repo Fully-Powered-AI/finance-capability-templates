@@ -1,10 +1,10 @@
 {
   "id": "thirteen-week-cash-flow-forecast",
   "name": "Thirteen-week cash flow forecast",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "The owner sees cash week by week for the next thirteen weeks: what comes in, what goes out, the lowest point and every week below the floor they set, with each assumption written on the page. The forecast informs the decision; the owner makes it, and nothing is paid or moved.",
-  "directory": "https://fullypowered.ai/capabilities/thirteen-week-cash-flow-forecast/",
+  "directory": "https://fullypowered.ai/workflow templates/thirteen-week-cash-flow-forecast/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

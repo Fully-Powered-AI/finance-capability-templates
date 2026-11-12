@@ -2,7 +2,7 @@
 
 Before each payroll run, the owner gets one sheet built from the timesheet and roster exports: hours by person and type, every missing punch and odd entry raised as a question, and an estimated total. Nothing is keyed in, submitted or paid until a person approves.
 
-*Capability template · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/payroll-preparation-and-timesheet-review/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/payroll-preparation-and-timesheet-review/)*
 
 ## The outcome
 
@@ -10,7 +10,7 @@ The owner approves payroll knowing what is in it. Every person on the roster has
 
 The usual payroll surprises surface before the money moves: the shift with a start and no finish, the regular who has no hours this week, a name on the timesheet nobody set up, a pay rate that moved, leave taken beyond the balance, hours logged before someone's first day. The sheet corrects none of them. Each becomes one plain question for the owner, asked one at a time.
 
-The capability prepares and checks. It never fills in a missing time, never runs payroll and never touches the payroll provider. A person keys in the approved hours and the owner submits the run.
+The workflow template prepares and checks. It never fills in a missing time, never runs payroll and never touches the payroll provider. A person keys in the approved hours and the owner submits the run.
 
 ## Who starts the work, and when
 
@@ -57,7 +57,7 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has to change for your company
 
-- **Your overtime rule.** Written exactly as it is set up with your payroll provider. The capability applies the rule you give it and never picks one, because the right rule depends on where your people work.
+- **Your overtime rule.** Written exactly as it is set up with your payroll provider. The workflow template applies the rule you give it and never picks one, because the right rule depends on where your people work.
 - **Your break and rounding conventions.** Whether the timesheet already takes breaks out, and whether you round.
 - **Your limits.** What counts as a long shift, a long day, hours well above the schedule and overtime well above someone's usual.
 - **Your roles.** Who prepares, who approves, who keys hours in and who submits.
@@ -66,9 +66,9 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its own invented example in one AI product on 9 November 2026; the record of that run is published with the template, and lists the edits made afterward that have not been run again. That is a trial, not a test. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its own invented example in one AI product on 9 November 2026; the record of that run is published with the template, and lists the edits made afterward that have not been run again. That is a trial, not a test. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on past pay periods your payroll clerk already knows, with hard cases written in advance: a missing clock-out, a regular with no hours, a name not on the roster, a rate change, leave beyond the balance. The owner checks every line against the exports before anyone relies on the sheet. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on past pay periods your payroll clerk already knows, with hard cases written in advance: a missing clock-out, a regular with no hours, a name not on the roster, a rate change, leave beyond the balance. The owner checks every line against the exports before anyone relies on the sheet. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -79,11 +79,11 @@ Testing in your environment means running it on past pay periods your payroll cl
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -93,12 +93,12 @@ Testing in your environment means running it on past pay periods your payroll cl
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Supplier bill review and payment-run preparation](../supplier-bill-review-and-payment-run-preparation/)
 - [Thirteen-week cash flow forecast](../thirteen-week-cash-flow-forecast/)
-- [Employee offboarding and handover checklist](https://fullypowered.ai/capabilities/employee-offboarding-and-handover-checklist/)
+- [Employee offboarding and handover checklist](https://fullypowered.ai/workflow templates/employee-offboarding-and-handover-checklist/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

@@ -1,10 +1,10 @@
 {
   "id": "investor-update",
   "name": "Investor update",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Each month or quarter, the founder gets a drafted update for investors: the headline, key figures against plan and last period, cash and runway, wins, problems told plainly with what is being done, and specific asks. Every figure comes from the company's own reports. The founder approves and sends it.",
-  "directory": "https://fullypowered.ai/capabilities/investor-update/",
+  "directory": "https://fullypowered.ai/workflow templates/investor-update/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

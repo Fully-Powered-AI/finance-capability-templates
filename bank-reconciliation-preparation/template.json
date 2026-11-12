@@ -1,10 +1,10 @@
 {
   "id": "bank-reconciliation-preparation",
   "name": "Bank reconciliation preparation",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before the month is signed off, your bookkeeper holds one bank reconciliation for one account: every statement line matched to the books or explained, every open item aged, a proof that the two balances agree, and the entries still to make. Nothing is posted until a person approves.",
-  "directory": "https://fullypowered.ai/capabilities/bank-reconciliation-preparation/",
+  "directory": "https://fullypowered.ai/workflow templates/bank-reconciliation-preparation/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

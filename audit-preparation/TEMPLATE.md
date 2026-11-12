@@ -1,6 +1,6 @@
 # Audit preparation
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -12,7 +12,7 @@ Use it when the auditors' request list arrives, usually three to six weeks befor
 
 Do not use it:
 
-- to run the month-end close or to reconcile a bank account. Those are their own capabilities, and their finished work becomes documents on this tracker;
+- to run the month-end close or to reconcile a bank account. Those are their own workflow templates, and their finished work becomes documents on this tracker;
 - to decide how something should be accounted for, or to agree or dispute an adjustment the auditors propose. Those are the controller's decisions, with the auditors;
 - to answer questions about legal claims or disputes, tax positions, suspected fraud, or whether the business can keep operating. The pack lists those questions for the role named in the settings to answer with the company's advisers. It gives no legal or tax advice;
 - to write the management representation letter. The auditors supply it and management signs it; the pack tracks it as an item like any other;

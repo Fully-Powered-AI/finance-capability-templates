@@ -1,10 +1,10 @@
 {
   "id": "budget-versus-actual-variance-commentary",
   "name": "Budget-versus-actual variance commentary",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before the month's results go to management, the finance lead gets written commentary on every line that moved past the threshold: the figures, the budget owner's explanation marked confirmed or to be confirmed, a bridge from budget to actual, and the questions still open. No cause is invented.",
-  "directory": "https://fullypowered.ai/capabilities/budget-versus-actual-variance-commentary/",
+  "directory": "https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

@@ -2,7 +2,7 @@
 
 Each month or quarter, the founder gets a drafted update for investors: the headline, key figures against plan and last period, cash and runway, wins, problems told plainly with what is being done, and specific asks. Every figure comes from the company's own reports. The founder approves and sends it.
 
-*Capability template · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/investor-update/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/investor-update/)*
 
 ## The outcome
 
@@ -10,7 +10,7 @@ Your investors hear from you on time, in the same shape every period, and they h
 
 Every figure that is well behind plan lands under Problems, with your explanation and what you are doing about it, or with a plain marker where your explanation is still missing. Last period's problems and asks are followed up, so investors see that what you raised was handled. Each ask is checked for what you want, from whom and by when, because a named kind of person and a date give an investor something to do.
 
-Gaps come first, as questions: a headline that skips the period's worst number, a figure that differs from the one you sent last time, an ask with no deadline or no clear target. The capability prepares. You write the words that matter, settle the questions, and send the update yourself.
+Gaps come first, as questions: a headline that skips the period's worst number, a figure that differs from the one you sent last time, an ask with no deadline or no clear target. The workflow template prepares. You write the words that matter, settle the questions, and send the update yourself.
 
 ## Who starts the work, and when
 
@@ -50,13 +50,13 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
 ## What has to change for your company
 
-Choose your standing metrics and their order once, and keep them; the capability shows every one every period. Map your reports' column headings to the ones it expects, or keep its defaults. Set the variance from plan that counts as well behind, the runway that should always be raised as a problem, and how long the update may be. Agree how your finance lead counts net burn, which customers may be named and who gives that permission, and where the sent update is kept so the next one can follow it up. It runs in ChatGPT, Claude, Copilot or Gemini; decide which reports the assistant may be given.
+Choose your standing metrics and their order once, and keep them; the workflow template shows every one every period. Map your reports' column headings to the ones it expects, or keep its defaults. Set the variance from plan that counts as well behind, the runway that should always be raised as a problem, and how long the update may be. Agree how your finance lead counts net burn, which customers may be named and who gives that permission, and where the sent update is kept so the next one can follow it up. It runs in ChatGPT, Claude, Copilot or Gemini; decide which reports the assistant may be given.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026 in two runs; the template and example had small edits after the first, and the record of the second, with the findings of the first, is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026 in two runs; the template and example had small edits after the first, and the record of the second, with the findings of the first, is published with it. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three past periods whose updates you already sent, plus hard cases written in advance: a cash report that does not tie, a metric well behind plan with no explanation, a figure that differs from last time, a metric that disappears, an ask with no deadline. The finance lead checks every figure against its report before the founder relies on the draft. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on two or three past periods whose updates you already sent, plus hard cases written in advance: a cash report that does not tie, a metric well behind plan with no explanation, a figure that differs from last time, a metric that disappears, an ask with no deadline. The finance lead checks every figure against its report before the founder relies on the draft. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -67,11 +67,11 @@ Testing in your environment means running it on two or three past periods whose 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -81,12 +81,12 @@ Testing in your environment means running it on two or three past periods whose 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Board meeting pack](https://fullypowered.ai/capabilities/board-meeting-pack/)
+- [Board meeting pack](https://fullypowered.ai/workflow templates/board-meeting-pack/)
 - [Thirteen-week cash flow forecast](../thirteen-week-cash-flow-forecast/)
 - [Budget-versus-actual variance commentary](../budget-versus-actual-variance-commentary/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

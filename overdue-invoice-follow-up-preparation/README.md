@@ -2,13 +2,13 @@
 
 Every overdue invoice gets a follow-up drafted in your firm’s tone for its age and addressed from the right person, and every invoice that should not be chased is held with the reason written down.
 
-*Capability template · Finance and accounting · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/overdue-invoice-follow-up-preparation/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/overdue-invoice-follow-up-preparation/)*
 
 ## The outcome
 
 Collections stop depending on who remembers to chase. Each week, every overdue invoice is either ready to follow up or held for a stated reason. The drafts read like your firm wrote them: a light reminder at 10 days, a request for a date at 40, a direct note from the account lead once a promise is missed. Each cites the invoice, the amount, the due date and what the client last said.
 
-The plan also holds back what should not go out: the disputed invoice, the one a still-unidentified payment may have settled, the balance whose cause nobody has confirmed. Nothing is sent by the capability. The account lead or billing coordinator reads each draft, edits it and sends it.
+The plan also holds back what should not go out: the disputed invoice, the one a still-unidentified payment may have settled, the balance whose cause nobody has confirmed. Nothing is sent by the workflow template. The account lead or billing coordinator reads each draft, edits it and sends it.
 
 ## Who starts the work, and when
 
@@ -44,9 +44,9 @@ Set your brackets and one approved message for each. Decide who sends and who is
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 9 November 2026. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 9 November 2026. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it against a past aging report with cases written in advance: a disputed invoice, a missed promise, a client who has already paid, a reminder sent two days ago and an invoice with no contact on file. The billing coordinator and an account lead judge each plan and draft against the expected behavior before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it against a past aging report with cases written in advance: a disputed invoice, a missed promise, a client who has already paid, a reminder sent two days ago and an invoice with no contact on file. The billing coordinator and an account lead judge each plan and draft against the expected behavior before anyone relies on it. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -57,10 +57,10 @@ Testing in your environment means running it against a past aging report with ca
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -70,12 +70,12 @@ Testing in your environment means running it against a past aging report with ca
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Receivables exception review](../receivables-exception-review/)
 - [Weekly receivables summary](../weekly-receivables-summary/)
-- [Client-status update preparation](https://fullypowered.ai/capabilities/client-status-update-preparation/)
+- [Client-status update preparation](https://fullypowered.ai/workflow templates/client-status-update-preparation/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

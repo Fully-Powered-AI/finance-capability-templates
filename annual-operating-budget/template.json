@@ -1,10 +1,10 @@
 {
   "id": "annual-operating-budget",
   "name": "Annual operating budget",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "For an owner or finance lead preparing next year: revenue and costs by month and by team, built from this year's figures and each budget owner's drivers, every assumption written down, capital purchases listed apart, the whole checked against cash, and the questions leadership has to settle.",
-  "directory": "https://fullypowered.ai/capabilities/annual-operating-budget/",
+  "directory": "https://fullypowered.ai/workflow templates/annual-operating-budget/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

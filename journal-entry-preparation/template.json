@@ -1,10 +1,10 @@
 {
   "id": "journal-entry-preparation",
   "name": "Journal entry preparation",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "At month end, your bookkeeper hands the controller every proposed journal entry ready to review: balanced lines on accounts from your own chart, the arithmetic and the document behind each amount, whether it reverses, and who approves it. Nothing is posted until a person approves.",
-  "directory": "https://fullypowered.ai/capabilities/journal-entry-preparation/",
+  "directory": "https://fullypowered.ai/workflow templates/journal-entry-preparation/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"
