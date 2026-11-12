@@ -2,7 +2,7 @@
 
 Before the external auditors arrive, your controller holds one audit pack: every request with its owner, date, document and status, the control evidence they will test, last year's findings and what was done, and draft answers to the questions they will ask. People approve everything before it goes.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/audit-preparation/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/audit-preparation/)*
 
 ## The outcome
 

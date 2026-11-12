@@ -2,7 +2,7 @@
 
 Before the month ends, your controller holds the whole close on one page: every task with its owner, its date and what it waits on, the chain that sets the close date, and each gap already written as a question. Entries are prepared for approval, never posted.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/month-end-close-checklist/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/month-end-close-checklist/)*
 
 ## The outcome
 
@@ -81,7 +81,7 @@ Testing in your environment means running it on two or three past months your co
 
 - [Weekly receivables summary](../weekly-receivables-summary/)
 - [Receivables exception review](../receivables-exception-review/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

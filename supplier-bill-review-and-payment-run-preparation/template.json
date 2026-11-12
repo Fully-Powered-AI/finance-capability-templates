@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before each payment run, the person who approves it gets one sheet: every supplier bill checked against its purchase order and what was received, duplicates and changed bank details stopped, credits shown, and a proposed run with its total. Nothing is paid until a person approves.",
-  "directory": "https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/",
+  "directory": "https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

@@ -2,7 +2,7 @@
 
 For an owner or finance lead preparing next year: revenue and costs by month and by team, built from this year's figures and each budget owner's drivers, every assumption written down, capital purchases listed apart, the whole checked against cash, and the questions leadership has to settle.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/annual-operating-budget/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/annual-operating-budget/)*
 
 ## The outcome
 
@@ -96,7 +96,7 @@ Testing in your environment means running it on last year's budget round, which 
 
 ## Related workflow templates
 
-- [Headcount plan](https://fullypowered.ai/workflow templates/headcount-plan/)
+- [Headcount plan](https://fullypowered.ai/workflows/headcount-plan/)
 - [Thirteen-week cash flow forecast](../thirteen-week-cash-flow-forecast/)
 - [Budget-versus-actual variance commentary](../budget-versus-actual-variance-commentary/)
 

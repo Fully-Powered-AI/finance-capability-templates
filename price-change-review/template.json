@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before prices change, the owner or finance lead gets one review: the margin on each product or service from the sales and cost exports, how costs have moved, what each proposed price does to sales and gross profit across a stated range of customer responses, and dated competitor prices. It recommends no price.",
-  "directory": "https://fullypowered.ai/workflow templates/price-change-review/",
+  "directory": "https://fullypowered.ai/workflows/price-change-review/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

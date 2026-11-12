@@ -2,7 +2,7 @@
 
 The controller gets every short payment, unmatched or ambiguous receipt, possible duplicate and disputed invoice on one list, each with its evidence and a proposed next step, before anything is applied on a guess.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/receivables-exception-review/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/receivables-exception-review/)*
 
 ## The outcome
 
@@ -73,7 +73,7 @@ Testing in your environment means running it on a past month whose answers your 
 
 - [Overdue-invoice follow-up preparation](../overdue-invoice-follow-up-preparation/)
 - [Weekly receivables summary](../weekly-receivables-summary/)
-- [SOP exception capture](https://fullypowered.ai/workflow templates/sop-exception-capture/)
+- [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/)
 
 ## Make it yours
 

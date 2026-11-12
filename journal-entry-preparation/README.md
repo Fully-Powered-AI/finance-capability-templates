@@ -2,7 +2,7 @@
 
 At month end, your bookkeeper hands the controller every proposed journal entry ready to review: balanced lines on accounts from your own chart, the arithmetic and the document behind each amount, whether it reverses, and who approves it. Nothing is posted until a person approves.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/journal-entry-preparation/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/journal-entry-preparation/)*
 
 ## The outcome
 

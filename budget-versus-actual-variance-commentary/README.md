@@ -2,7 +2,7 @@
 
 Before the month's results go to management, the finance lead gets written commentary on every line that moved past the threshold: the figures, the budget owner's explanation marked confirmed or to be confirmed, a bridge from budget to actual, and the questions still open. No cause is invented.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/budget-versus-actual-variance-commentary/)*
 
 ## The outcome
 

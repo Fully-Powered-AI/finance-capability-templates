@@ -2,7 +2,7 @@
 
 Each month or quarter, the founder gets a drafted update for investors: the headline, key figures against plan and last period, cash and runway, wins, problems told plainly with what is being done, and specific asks. Every figure comes from the company's own reports. The founder approves and sends it.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/investor-update/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/investor-update/)*
 
 ## The outcome
 
@@ -83,7 +83,7 @@ Testing in your environment means running it on two or three past periods whose 
 
 ## Related workflow templates
 
-- [Board meeting pack](https://fullypowered.ai/workflow templates/board-meeting-pack/)
+- [Board meeting pack](https://fullypowered.ai/workflows/board-meeting-pack/)
 - [Thirteen-week cash flow forecast](../thirteen-week-cash-flow-forecast/)
 - [Budget-versus-actual variance commentary](../budget-versus-actual-variance-commentary/)
 

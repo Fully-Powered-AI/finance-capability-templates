@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Every overdue invoice gets a follow-up drafted in your firm’s tone for its age and addressed from the right person, and every invoice that should not be chased is held with the reason written down.",
-  "directory": "https://fullypowered.ai/workflow templates/overdue-invoice-follow-up-preparation/",
+  "directory": "https://fullypowered.ai/workflows/overdue-invoice-follow-up-preparation/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

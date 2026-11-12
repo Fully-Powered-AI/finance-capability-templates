@@ -2,7 +2,7 @@
 
 Once the year's books are closed, the owner or bookkeeper hands the accountant one packet: the documents asked for and what is still missing, every contractor paid over the reporting line with missing tax forms flagged, the year's estimated tax payments, and the questions to ask. It works out no tax.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/year-end-tax-packet-for-the-accountant/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/year-end-tax-packet-for-the-accountant/)*
 
 ## The outcome
 

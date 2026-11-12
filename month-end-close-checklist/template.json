@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before the month ends, your controller holds the whole close on one page: every task with its owner, its date and what it waits on, the chain that sets the close date, and each gap already written as a question. Entries are prepared for approval, never posted.",
-  "directory": "https://fullypowered.ai/workflow templates/month-end-close-checklist/",
+  "directory": "https://fullypowered.ai/workflows/month-end-close-checklist/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting"

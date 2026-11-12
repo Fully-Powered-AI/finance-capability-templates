@@ -2,7 +2,7 @@
 
 Before a model or schedule goes to a client, a lender or a board, the sender gets one report on it: every error value, short total, buried assumption and hidden row pinned to its cell, each with a fix or a question, and a plain list of what was not checked. Nothing in the workbook is changed.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/spreadsheet-check-before-sharing/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/spreadsheet-check-before-sharing/)*
 
 ## The outcome
 

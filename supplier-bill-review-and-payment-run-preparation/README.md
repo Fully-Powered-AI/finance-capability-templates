@@ -2,7 +2,7 @@
 
 Before each payment run, the person who approves it gets one sheet: every supplier bill checked against its purchase order and what was received, duplicates and changed bank details stopped, credits shown, and a proposed run with its total. Nothing is paid until a person approves.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/)*
 
 ## The outcome
 
@@ -98,7 +98,7 @@ Testing in your environment means running it on past payment runs your bookkeepe
 
 - [Receivables exception review](../receivables-exception-review/)
 - [Weekly receivables summary](../weekly-receivables-summary/)
-- [SOP exception capture](https://fullypowered.ai/workflow templates/sop-exception-capture/)
+- [SOP exception capture](https://fullypowered.ai/workflows/sop-exception-capture/)
 
 ## Make it yours
 

@@ -2,7 +2,7 @@
 
 Before each payroll run, the owner gets one sheet built from the timesheet and roster exports: hours by person and type, every missing punch and odd entry raised as a question, and an estimated total. Nothing is keyed in, submitted or paid until a person approves.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/payroll-preparation-and-timesheet-review/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/payroll-preparation-and-timesheet-review/)*
 
 ## The outcome
 
@@ -97,7 +97,7 @@ Testing in your environment means running it on past pay periods your payroll cl
 
 - [Supplier bill review and payment-run preparation](../supplier-bill-review-and-payment-run-preparation/)
 - [Thirteen-week cash flow forecast](../thirteen-week-cash-flow-forecast/)
-- [Employee offboarding and handover checklist](https://fullypowered.ai/workflow templates/employee-offboarding-and-handover-checklist/)
+- [Employee offboarding and handover checklist](https://fullypowered.ai/workflows/employee-offboarding-and-handover-checklist/)
 
 ## Make it yours
 

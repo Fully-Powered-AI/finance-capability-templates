@@ -2,7 +2,7 @@
 
 Every overdue invoice gets a follow-up drafted in your firm’s tone for its age and addressed from the right person, and every invoice that should not be chased is held with the reason written down.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/overdue-invoice-follow-up-preparation/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/overdue-invoice-follow-up-preparation/)*
 
 ## The outcome
 
@@ -74,7 +74,7 @@ Testing in your environment means running it against a past aging report with ca
 
 - [Receivables exception review](../receivables-exception-review/)
 - [Weekly receivables summary](../weekly-receivables-summary/)
-- [Client-status update preparation](https://fullypowered.ai/workflow templates/client-status-update-preparation/)
+- [Client-status update preparation](https://fullypowered.ai/workflows/client-status-update-preparation/)
 
 ## Make it yours
 

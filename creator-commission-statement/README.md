@@ -2,7 +2,7 @@
 
 Each month, the finance lead gets a draft statement of what every creator has earned, worked from the store's orders export: commission under the programme's rules, flat fees, amounts carried under the minimum, and a payout list. A person approves it; finance pays.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/creator-commission-statement/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/creator-commission-statement/)*
 
 ## The outcome
 

@@ -2,7 +2,7 @@
 
 The owner sees cash week by week for the next thirteen weeks: what comes in, what goes out, the lowest point and every week below the floor they set, with each assumption written on the page. The forecast informs the decision; the owner makes it, and nothing is paid or moved.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/thirteen-week-cash-flow-forecast/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/thirteen-week-cash-flow-forecast/)*
 
 ## The outcome
 

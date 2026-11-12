@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Each month, the finance lead gets a draft statement of what every creator has earned, worked from the store's orders export: commission under the programme's rules, flat fees, amounts carried under the minimum, and a payout list. A person approves it; finance pays.",
-  "directory": "https://fullypowered.ai/workflow templates/creator-commission-statement/",
+  "directory": "https://fullypowered.ai/workflows/creator-commission-statement/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

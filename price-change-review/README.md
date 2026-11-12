@@ -2,7 +2,7 @@
 
 Before prices change, the owner or finance lead gets one review: the margin on each product or service from the sales and cost exports, how costs have moved, what each proposed price does to sales and gross profit across a stated range of customer responses, and dated competitor prices. It recommends no price.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/price-change-review/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/price-change-review/)*
 
 ## The outcome
 
@@ -97,9 +97,9 @@ Testing in your environment means running it on a past price change your owner r
 
 ## Related workflow templates
 
-- [Discount request review](https://fullypowered.ai/workflow templates/discount-request-review/)
-- [Competitor profile from public pages](https://fullypowered.ai/workflow templates/competitor-profile-from-public-pages/)
-- [Slow-moving stock and markdown plan](https://fullypowered.ai/workflow templates/slow-moving-stock-and-markdown-plan/)
+- [Discount request review](https://fullypowered.ai/workflows/discount-request-review/)
+- [Competitor profile from public pages](https://fullypowered.ai/workflows/competitor-profile-from-public-pages/)
+- [Slow-moving stock and markdown plan](https://fullypowered.ai/workflows/slow-moving-stock-and-markdown-plan/)
 
 ## Make it yours
 

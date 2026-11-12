@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before each payroll run, the owner gets one sheet built from the timesheet and roster exports: hours by person and type, every missing punch and odd entry raised as a question, and an estimated total. Nothing is keyed in, submitted or paid until a person approves.",
-  "directory": "https://fullypowered.ai/workflow templates/payroll-preparation-and-timesheet-review/",
+  "directory": "https://fullypowered.ai/workflows/payroll-preparation-and-timesheet-review/",
   "primary_function": "functions/finance-and-accounting",
   "functions": [
     "functions/finance-and-accounting",

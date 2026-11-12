@@ -2,7 +2,7 @@
 
 Before the month is signed off, your bookkeeper holds one bank reconciliation for one account: every statement line matched to the books or explained, every open item aged, a proof that the two balances agree, and the entries still to make. Nothing is posted until a person approves.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/bank-reconciliation-preparation/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/bank-reconciliation-preparation/)*
 
 ## The outcome
 

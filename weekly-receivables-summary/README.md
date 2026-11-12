@@ -2,7 +2,7 @@
 
 The finance lead takes one page into each week’s management meeting: what came in, where every receivable stands, which exceptions are open and who owns them, and the decisions management must make. Every figure ties to the aging report.
 
-*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/weekly-receivables-summary/)*
+*Workflow template · Finance and accounting · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/weekly-receivables-summary/)*
 
 ## The outcome
 
@@ -73,7 +73,7 @@ Testing in your environment means running it on past weeks your finance lead alr
 
 - [Receivables exception review](../receivables-exception-review/)
 - [Overdue-invoice follow-up preparation](../overdue-invoice-follow-up-preparation/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 
