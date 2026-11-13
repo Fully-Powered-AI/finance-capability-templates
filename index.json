@@ -36,6 +36,14 @@
       "directory": "https://fullypowered.ai/workflows/budget-versus-actual-variance-commentary/"
     },
     {
+      "id": "collections-call-brief",
+      "name": "Collections call brief",
+      "version": "0.1.0",
+      "summary": "Before you phone a customer about overdue invoices, one page sets out every open invoice and its age, what they were told and promised, any dispute or credit note still open, who to ask for and the questions to settle. After the call, what was agreed is written up for a person to confirm.",
+      "path": "collections-call-brief/",
+      "directory": "https://fullypowered.ai/workflows/collections-call-brief/"
+    },
+    {
       "id": "creator-commission-statement",
       "name": "Creator commission statement",
       "version": "0.1.0",
@@ -50,6 +58,14 @@
       "summary": "Each month or quarter, the founder gets a drafted update for investors: the headline, key figures against plan and last period, cash and runway, wins, problems told plainly with what is being done, and specific asks. Every figure comes from the company's own reports. The founder approves and sends it.",
       "path": "investor-update/",
       "directory": "https://fullypowered.ai/workflows/investor-update/"
+    },
+    {
+      "id": "job-cost-review-at-completion",
+      "name": "Job cost review at completion",
+      "version": "0.1.0",
+      "summary": "When a job closes, the controller gets one review that sets recorded labour, material, subcontract and overhead beside the estimate by cost code, shows each difference and what the job-cost records say about it, and lists the questions for the estimator and the job lead. Nothing is changed.",
+      "path": "job-cost-review-at-completion/",
+      "directory": "https://fullypowered.ai/workflows/job-cost-review-at-completion/"
     },
     {
       "id": "journal-entry-preparation",
@@ -82,6 +98,14 @@
       "summary": "Before each payroll run, the owner gets one sheet built from the timesheet and roster exports: hours by person and type, every missing punch and odd entry raised as a question, and an estimated total. Nothing is keyed in, submitted or paid until a person approves.",
       "path": "payroll-preparation-and-timesheet-review/",
       "directory": "https://fullypowered.ai/workflows/payroll-preparation-and-timesheet-review/"
+    },
+    {
+      "id": "payroll-register-to-ledger-reconciliation",
+      "name": "Payroll register to ledger reconciliation",
+      "version": "0.1.0",
+      "summary": "At period end, the accountant or controller gets one worksheet proving the payroll register against the ledger: gross pay, employer taxes, deductions and net pay. Every difference is sorted as timing, miscoding or unexplained, with a question for each. Nothing is posted.",
+      "path": "payroll-register-to-ledger-reconciliation/",
+      "directory": "https://fullypowered.ai/workflows/payroll-register-to-ledger-reconciliation/"
     },
     {
       "id": "price-change-review",

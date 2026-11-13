@@ -1,0 +1,47 @@
+{
+  "id": "payroll-register-to-ledger-reconciliation",
+  "name": "Payroll register to ledger reconciliation",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "At period end, the accountant or controller gets one worksheet proving the payroll register against the ledger: gross pay, employer taxes, deductions and net pay. Every difference is sorted as timing, miscoding or unexplained, with a question for each. Nothing is posted.",
+  "directory": "https://fullypowered.ai/workflows/payroll-register-to-ledger-reconciliation/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/construction",
+    "industries/professional-services",
+    "industries/hospitality",
+    "industries/nonprofits"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "client-schedule-to-ledger-reconciliation",
+    "payroll-preparation-and-timesheet-review",
+    "bank-reconciliation-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-12",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-12",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own method for agreeing a payroll register to the general ledger at period end, written from how the work is done in companies under 200 people. No third-party text."
+    }
+  ]
+}

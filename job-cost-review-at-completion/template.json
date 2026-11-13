@@ -1,0 +1,47 @@
+{
+  "id": "job-cost-review-at-completion",
+  "name": "Job cost review at completion",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "When a job closes, the controller gets one review that sets recorded labour, material, subcontract and overhead beside the estimate by cost code, shows each difference and what the job-cost records say about it, and lists the questions for the estimator and the job lead. Nothing is changed.",
+  "directory": "https://fullypowered.ai/workflows/job-cost-review-at-completion/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting",
+    "functions/project-and-delivery"
+  ],
+  "industries": [
+    "industries/construction",
+    "industries/manufacturing",
+    "industries/engineering-firms"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "production-cost-variance-sheet",
+    "estimate-basis-pack",
+    "project-lessons-review"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-12",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-12",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own method for reviewing a finished job's cost against its estimate: the estimate revised by approved change orders, the job-cost records read under stated headers with a stop on any mismatch, nothing recorded never read as a saving, record notes quoted and never turned into causes, and every gap written as a question for a named role."
+    }
+  ]
+}

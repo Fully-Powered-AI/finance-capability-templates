@@ -1,0 +1,47 @@
+{
+  "id": "collections-call-brief",
+  "name": "Collections call brief",
+  "kind": "workflow-template",
+  "version": "0.1.0",
+  "summary": "Before you phone a customer about overdue invoices, one page sets out every open invoice and its age, what they were told and promised, any dispute or credit note still open, who to ask for and the questions to settle. After the call, what was agreed is written up for a person to confirm.",
+  "directory": "https://fullypowered.ai/workflows/collections-call-brief/",
+  "primary_function": "functions/finance-and-accounting",
+  "functions": [
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/logistics-and-trade",
+    "industries/construction",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "overdue-invoice-follow-up-preparation",
+    "receivables-exception-review",
+    "weekly-receivables-summary"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-12",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-12",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own account of how a company under 200 people prepares and records a call about overdue invoices: the ledger and the contact history as the only sources, promises judged against payments received, the company's written collections terms as the only limit on what is offered, and a named person who confirms what the call settled."
+    }
+  ]
+}
